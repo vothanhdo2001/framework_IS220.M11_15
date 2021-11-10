@@ -27,12 +27,14 @@ namespace Project.Models
 
         [StringLength(10, ErrorMessage = "Too long!")]
         public string CoStatus { get => coStatus; set => coStatus = value; }
+
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyy}", ApplyFormatInEditMode = true)]
         public DateTime CoDate { get => coDate; set => coDate = value; }
 
-        [ForeignKey("usId")]
+        [ForeignKey("UsId")]
         public UsersModel User { get; set; }
 
-        [ForeignKey("mId")]
+        [ForeignKey("MId")]
         public SongModel Song { get; set; }
         
     }

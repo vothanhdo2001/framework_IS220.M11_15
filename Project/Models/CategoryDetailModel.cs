@@ -15,10 +15,10 @@ namespace Project.Models
         public int CaId { get => this.caId; set => this.caId = value; }
         public int MId { get => this.mId; set => this.mId = value; }
 
-        [ForeignKey("caId")]
+        [ForeignKey("CaId")]
         public CategoryModel Category { get; set; }
 
-        [ForeignKey("mId")]
+        [ForeignKey("MId")]
         public SongModel Song { get; set; }
     }
 }

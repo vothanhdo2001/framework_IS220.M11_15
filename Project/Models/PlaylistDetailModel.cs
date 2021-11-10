@@ -20,13 +20,13 @@ namespace Project.Models
         public int PId { get => pId; set => pId = value; }
         public int MId { get => mId; set => mId = value; }
 
-        [ForeignKey("usId")]
+        [ForeignKey("UsId")]
         public UsersModel User { get; set; }
 
-        [ForeignKey("pId")]
+        [ForeignKey("PId")]
         public PlaylistModel Playlist { get; set; }
 
-        [ForeignKey("mId")]
+        [ForeignKey("MId")]
         public SongModel Song { get; set; }
     }
 }
