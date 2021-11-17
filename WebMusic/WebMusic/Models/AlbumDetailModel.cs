@@ -13,6 +13,28 @@ namespace WebMusic.Models
         private int mId;
         private int usId;
         private int siId;
+<<<<<<< HEAD
+        [Display(Name = "ID Album")]
+        public int AId { get => this.aId; set => this.aId = value; }
+        [Display(Name = "ID Bài Hát")]
+        public int MId { get => this.mId; set => this.mId = value; }
+        [Display(Name = "ID User")]
+        public int UsId { get => this.usId; set => this.usId = value; }
+        [Display(Name = "ID Ca Sĩ")]
+        public int SiId { get => this.siId; set => this.siId = value; }
+        
+        [ForeignKey("AId")]
+        [Display(Name = "ID Album")]
+        public AlbumModel Album { get; set; }
+        [ForeignKey("SiId")]
+        [Display(Name = "ID Ca Sĩ")]
+        public SingerModel Singer { get; set; }
+        [ForeignKey("UsId")]
+        [Display(Name = "ID User")]
+        public UsersModel User { get; set; }
+        [ForeignKey("MId")]
+        [Display(Name = "ID Bài Hát")]
+=======
         public int AId { get => this.aId; set => this.aId = value; }
         [ForeignKey("AId")]
 
@@ -28,6 +50,7 @@ namespace WebMusic.Models
         public AlbumModel Album { get; set; }
         public SingerModel Singer { get; set; }
         public UsersModel User { get; set; }
+>>>>>>> master
         public SongModel Song { get; set; }
     }
 }

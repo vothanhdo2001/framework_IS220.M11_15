@@ -11,6 +11,18 @@ namespace WebMusic.Models
     {
         private int siId;
         private int mId;
+<<<<<<< HEAD
+        [Display(Name = "ID Ca Sĩ")]
+        public int SiId { get => this.siId; set => this.siId = value; }
+        [Display(Name = "ID Bài Hát")]
+        public int MId { get => this.mId; set => this.mId = value; }
+        
+        [ForeignKey("SiId")]
+        [Display(Name = "ID Ca Sĩ")]
+        public SingerModel Singer { get; set; }
+        [ForeignKey("MId")]
+        [Display(Name = "ID Bài Hát")]
+=======
 
         public int SiId { get => this.siId; set => this.siId = value; }
         [ForeignKey("SiId")]
@@ -19,6 +31,7 @@ namespace WebMusic.Models
         [ForeignKey("MId")]
 
         public SingerModel Singer { get; set; }
+>>>>>>> master
         public SongModel Song { get; set; }
     }
 }

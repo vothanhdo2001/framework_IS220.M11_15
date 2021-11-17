@@ -12,6 +12,25 @@ namespace WebMusic.Models
         private int usId;
         private int pId;
         private int mId;
+<<<<<<< HEAD
+        [Display(Name = "ID User")]
+        public int UsId { get => usId; set => usId = value; }
+        [Display(Name = "ID PlayList")]
+        public int PId { get => pId; set => pId = value; }
+        [Display(Name = "ID Bài Hát")]
+        public int MId { get => mId; set => mId = value; }
+
+        [ForeignKey("UsId")]
+        [Display(Name = "ID User")]
+        public UsersModel User { get; set; }
+
+        [ForeignKey("PId")]
+        [Display(Name = "ID PlayList")]
+        public PlaylistModel Playlist { get; set; }
+
+        [ForeignKey("MId")]
+        [Display(Name = "ID Bài Hát")]
+=======
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -27,6 +46,7 @@ namespace WebMusic.Models
         public PlaylistModel Playlist { get; set; }
 
         [ForeignKey("MId")]
+>>>>>>> master
         public SongModel Song { get; set; }
     }
 }

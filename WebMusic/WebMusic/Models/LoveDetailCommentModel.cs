@@ -11,6 +11,18 @@ namespace WebMusic.Models
     {
         private int usId;
         private int coId;
+<<<<<<< HEAD
+        [Display(Name = "ID User")]
+        public int UsId { get => this.usId; set => this.usId = value; }
+        [Display(Name = "ID Comment")]
+        public int CoId { get => this.coId; set => this.coId = value; }
+        
+        [ForeignKey("UsId")]
+        [Display(Name = "ID User")]
+        public UsersModel User { get; set; }
+        [ForeignKey("CoId")]
+        [Display(Name = "ID Comment")]
+=======
         public int UsId { get => this.usId; set => this.usId = value; }
         [ForeignKey("UsId")]
 
@@ -18,6 +30,7 @@ namespace WebMusic.Models
         [ForeignKey("CoId")]
 
         public UsersModel User { get; set; }
+>>>>>>> master
         public CommentsModel Comment { get; set; }
     }
 }
