@@ -14,13 +14,11 @@ namespace WebMusic.Models
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-<<<<<<< HEAD
+
         [Display(Name = "ID Thể Loại")]
         public int CaId { get => caId; set => caId = value; }
         [Display(Name = "Tên Thể Loại")]
-=======
-        public int CaId { get => caId; set => caId = value; }
->>>>>>> master
+
 
         [StringLength(30, ErrorMessage = "Too long!")]
         public string CaName { get => this.caName; set => this.caName = value; }

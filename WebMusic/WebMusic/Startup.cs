@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
-<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
-=======
->>>>>>> master
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,10 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-<<<<<<< HEAD
 using WebMusic.Data;
-=======
->>>>>>> master
+
 
 namespace WebMusic
 {
@@ -32,11 +27,8 @@ namespace WebMusic
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-<<<<<<< HEAD
             services.AddDbContext<MusicContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-=======
->>>>>>> master
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

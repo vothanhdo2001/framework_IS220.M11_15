@@ -19,7 +19,6 @@ namespace WebMusic.Models
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-<<<<<<< HEAD
         [Display(Name = "ID Album")]
         public int AId { get => this.aId; set => this.aId = value; }
         [Display(Name = "Tên Album")]
@@ -34,15 +33,6 @@ namespace WebMusic.Models
         [Display(Name = "Ảnh")]
         public string Photo { get => this.photo; set => this.photo = value; }
         [Display(Name = "Trạng Thái")]
-=======
-        public int AId { get => this.aId; set => this.aId = value; }
-        public string AName { get => this.aName; set => this.aName = value; }
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime ADate { get => this.aDate; set => this.aDate = value; }
-        public string SName { get => this.sName; set => this.sName = value; }
-        public string Intro { get => this.intro; set => this.intro = value; }
-        public string Photo { get => this.photo; set => this.photo = value; }
->>>>>>> master
         public string AStatus { get => this.aStatus; set => this.aStatus = value; }
         ICollection<AlbumDetailModel> AlbumDetailModels { get; set; }
     }

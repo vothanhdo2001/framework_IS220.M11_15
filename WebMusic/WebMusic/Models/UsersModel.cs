@@ -24,7 +24,6 @@ namespace WebMusic.Models
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-<<<<<<< HEAD
         [Display(Name = "ID")]
         public int UsId { get => this.usId; set => value = this.usId; }
         [Display(Name = "User Name")]
@@ -50,21 +49,6 @@ namespace WebMusic.Models
         [Display(Name = "Password 2")]
         public string Pass2 { get => this.pass2; set => this.pass2 = value; }
         [Display(Name = "Câu hỏi bảo mật")]
-=======
-        public int UsId { get => this.usId; set => value = this.usId; }
-        public string UserName { get => this.userName; set => this.userName = value; }
-        public string Pass { get => this.pass; set => this.pass = value; }
-        public string NickName { get => this.nickName; set => this.nickName = value; }
-        public string Sex { get => this.sex; set => this.sex = value; }
-        public string Mail { get => this.mail; set => this.mail = value; }
-
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime RDate { get => this.rDate; set => this.rDate = value; }
-        public string UsRank { get => this.usRank; set => this.usRank = value; }
-        public string UsStatus { get => this.usStatus; set => this.usStatus = value; }
-        public string Photo { get => this.photo; set => this.photo = value; }
-        public string Pass2 { get => this.pass2; set => this.pass2 = value; }
->>>>>>> master
         public string Question { get => this.question; set => this.question = value; }
 
         public ICollection<CommentsModel> CommentsModels { get; set; }
