@@ -8480,11 +8480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+      "projectUniqueName": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
       "projectName": "WebMusic",
-      "projectPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+      "projectPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
       "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
+      "outputPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8555,13 +8555,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

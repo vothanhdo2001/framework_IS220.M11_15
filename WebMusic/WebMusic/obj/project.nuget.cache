@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m/Hl5TwcBuR6C4qdO986z0YkQiLn46yXh2OgUQrtiJQP/bUIBNbus1J+tnAR59Q+E5ncTLRf4l60nzmRmjmLww==",
+  "dgSpecHash": "xQzzLLBjUcJ8obCP8iTkh+zObRm3qLtMuWKxwcr35YTQRw2KYO8WzL4GgEMjff79O/kLHSWQ5HFcqHg9gIPl1Q==",
   "success": true,
-  "projectFilePath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+  "projectFilePath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -164,12 +164,5 @@
     "C:\\Users\\votha\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (2)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
