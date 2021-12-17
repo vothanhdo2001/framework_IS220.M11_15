@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DoAn\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {}
+    "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {}
   },
   "projects": {
-    "D:\\DoAn\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {
+    "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DoAn\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+        "projectUniqueName": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
         "projectName": "WebMusic",
-        "projectPath": "D:\\DoAn\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
-        "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-        "outputPath": "D:\\DoAn\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
+        "projectPath": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+        "packagesPath": "C:\\Users\\datvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\datvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
