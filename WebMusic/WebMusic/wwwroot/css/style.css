@@ -127,9 +127,7 @@ h1, h2, h3, h4, h5 {
 .logo a span{
 	color:#111;
 }
-.logo-icon {
-    display: none;
-}
+
 div#page-wrapper {
     padding:3em 2em;
 }
@@ -384,10 +382,6 @@ ul.nav.nav-pills.nav-stacked.custom-nav li:hover i.camera {
             LEFT SIDE COLLAPSE
 -------------------------------------------*/
 
-.left-side-collapsed .logo {
-    display: none;
-}
-
 .left-side-collapsed .header-section {
     margin-left: 0px;
 }
@@ -596,15 +590,12 @@ ul.nav li a span {
         STICKY HEADER
 ---------------------------------*/
 .sticky-header .logo {
-  position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
-    z-index: 100;
-    background: #EA57A3;
+    z-index: 11;
     border-bottom: 1px solid #5F45BB;
     text-align: center;
-        padding: 1.1em 0 1.2em;
+    padding: 1.1em 0 1.2em;
 }
 .logo h1 {
     margin-bottom: 0;
@@ -4565,10 +4556,9 @@ body {
 }
 
 	.menu a, .createplaylist {
+		width: 100%;
 		padding: 1.1em;
-		padding-right: 5.3em;
-		padding-left: 3em;
-		text-align: center;
+		text-align: left;
 		display: inline-block;
 		text-decoration: none !important;
 		margin: 0 auto;
@@ -4654,6 +4644,8 @@ body {
 	align-items: center;
 	background-color: #0C0721;
 	border-bottom: 1px solid rgba(0, 140, 255, 0.4);
+	z-index: 10;
+	justify-content: space-around;
 }
 
 .formsearch, .userprofile, .userprofile-item {
@@ -4662,26 +4654,23 @@ body {
 
 .search-input-text {
 	position: relative;
-	border-radius: 20px 0 0 20px;
-	border: 1px solid #170F39;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #170f39;
 	height: 35px;
 	width: 450px;
-	margin-left: 50px;
-	background-color: #170F39;
 	font-family: Inter,sans-serif;
 	font-size: 14px;
 	color: white;
 	padding-left: 25px;
+	background-color: #170f39;
 }
 
-	.search-input-text:focus {
-		background-color: #331A97;
-	}
 
 	.search-input-text::placeholder {
 		font-family: Inter,sans-serif;
 		font-size: 14px;
-		color: #dadada;
+		color: #999!important;
+		background-color: #170f39;
 	}
 
 .search-btn, .admin-btn {
@@ -4706,7 +4695,6 @@ body {
 
 .admin {
 	position: relative;
-	margin-left: 150px;
 }
 
 .bi-person-rolodex {
@@ -4715,25 +4703,25 @@ body {
 
 .userprofile {
 	position: relative;
-	margin-left: 30px;
 	cursor: pointer;
 	display: inline-block;
 }
 
 img.userprofile-avatar {
 	border-radius: 50%;
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 30px;
 }
 
 .userprofile-info {
-	margin-left: 5px;
+	margin-top: 6px;
+	margin-left: 8px;
 }
 
 .expand-user {
-	margin-left: 10px;
-	margin-top: 15px;
-	font-size: 150%;
+	margin-left: 5px;
+	margin-top: 8px;
+	font-size: 100%;
 }
 
 .dropdown-options {
@@ -4779,10 +4767,10 @@ img.userprofile-avatar {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 90px;
 	border-top: 1px solid hsla(0,0%,100%,0.1);
 	background-color: #080418;
 	display: flex;
+	z-index: 10;
 }
 
 img.baihat-img {
@@ -4903,12 +4891,15 @@ img.baihat-img {
 .music-time {
 	padding: 0;
 	margin-top: 5px;
+	display: flex;
+	align-items: center;
 }
 
 .time-sliderbar {
 	width: 400px;
 	height: 3px;
 	cursor: pointer;
+	margin: 0 20px;
 }
 
 .volume-sliderbar {
@@ -4933,7 +4924,7 @@ img.baihat-img {
 	background: none;
 	align-items: center;
 	margin: auto;
-	margin-right: 20px;
+	margin-top: 9px;
 	cursor: pointer;
 }
 
@@ -4952,6 +4943,8 @@ img.baihat-img {
 	margin-right: 20px;
 	display: table-cell;
 	vertical-align: middle;
+	display: flex;
+	align-items: center;
 }
 
 .volume-btn {
@@ -4987,6 +4980,7 @@ img.baihat-img {
 	height: 35px;
 	background-color: hsla(0,0%,100%,0.1);
 	cursor: pointer;
+	justify-content: center;
 }
 
 	.expand_playlists-btn:hover {
