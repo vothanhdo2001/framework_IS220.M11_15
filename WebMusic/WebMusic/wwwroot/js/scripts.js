@@ -1,19 +1,6 @@
 ﻿(function() {
     "use strict";
 
-    // custom scrollbar
-
-    $("html").niceScroll({styler:"fb",cursorcolor:"#45B39D", cursorwidth: '5', cursorborderradius: '10px', background: '#444', spacebarenabled:false, cursorborder: '0',  zindex: '1000'});
-
-    $(".left-side").niceScroll({styler:"fb",cursorcolor:"#45B39D", cursorwidth: '3', cursorborderradius: '10px', background: '#444', spacebarenabled:false, cursorborder: '0'});
-
-
-    $(".left-side").getNiceScroll();
-    if ($('body').hasClass('left-side-collapsed')) {
-        $(".left-side").getNiceScroll().hide();
-    }
-
-
 
     // Toggle Left Menu
    jQuery('.menu-list > a').click(function() {
@@ -129,13 +116,13 @@
    }
 })(jQuery);
 
-                      // Dropdowns Script
-						$(document).ready(function() {
-						  $(document).on('click', function(ev) {
-						    ev.stopImmediatePropagation();
-						    $(".dropdown-toggle").dropdown("active");
-						  });
-						});
+      //                // Dropdowns Script
+						//$(document).ready(function() {
+						//  $(document).on('click', function(ev) {
+						//    ev.stopImmediatePropagation();
+						//    $(".dropdown-toggle").dropdown("active");
+						//  });
+						//});
 						
 	
      
@@ -227,14 +214,17 @@ $(document).ready(function () {
         stateShowLyric = !stateShowLyric;
         if (stateShowLyric) {
             $("#show-lyrics").animate({
-                height: '74.2%'
+                height: '100%'
             });
             $('#show-lyrics-svg').css("fill", "#1c86dd");
+            $('#show-lyrics').css("background-image", 'url("/images/background-lyrics4.jpg")');
+
         } else {
             $("#show-lyrics").animate({
                 height: '0'
             });
             $('#show-lyrics-svg').css("fill", "#dadada");
+            $('#show-lyrics').css("background-image", 'none');
         }
 
     });
@@ -412,6 +402,94 @@ $(document).ready(function () {
             }
         }
     });
+    //Playlist
+    const heartBtnEles = document.querySelectorAll(".song-heart-btn");
+    const navLabelEles = document.querySelectorAll(".main-nav__item");
+    const navContentEles = document.querySelectorAll(".nav-content");
+    const editBtns = document.querySelectorAll(".edit-btn");
+
+
+    handleFeatureUI();
+
+    function handleFeatureUI() {
+        // Handle when click heart button
+        heartBtnEles.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                item.classList.toggle("heart-active");
+                const hearIcon = item.querySelector("i");
+                hearIcon.classList.toggle("far");
+                hearIcon.classList.toggle("fas");
+            });
+        });
+
+        // Handle tabui
+        navLabelEles.forEach((navLabelEle, index) => {
+            const navContentEle = navContentEles[index];
+
+            navLabelEle.onclick = function () {
+                document.querySelector(".nav-content.active").classList.remove("active");
+                document
+                    .querySelector(".main-nav__item.active")
+                    .classList.remove("active");
+
+                this.classList.add("active");
+                navContentEle.classList.add("active");
+            };
+        });
+    }
+
+    let popup = document.querySelector(".popup-wrapper");
+    let popupForm = document.querySelector(".popup-form");
+    let popupBtn = document.querySelector(".popup-open");
+    let popupClose = document.querySelector(".close-btn");
+    let popup1 = document.querySelector(".popup-wrapper1");
+
+    popupBtn.addEventListener("click", (e) => {
+        e.preventDefault;
+        showPopup();
+    });
+
+    popupClose.addEventListener("click", (e) => {
+        e.preventDefault;
+        removePopup();
+    });
+
+    popupForm.addEventListener("submit", () => {
+        removePopup();
+    });
+
+    popup.addEventListener("click", (e) => {
+        let target = e.target;
+        if (target.classList.contains("popup-wrapper")) {
+            removePopup();
+        } else return;
+    });
+
+    editBtns.forEach((item) => {
+        item.addEventListener("click", (e) => {
+            e.preventDefault;
+            popup1.classList.add("active");
+            bodyScroll();
+        });
+    });
+
+    function showPopup() {
+        console.log(popup);
+        popup.classList.add("active");
+        bodyScroll();
+    }
+
+    function removePopup() {
+        popup.classList.remove("active");
+        bodyScroll();
+    }
+
+    function bodyScroll() {
+        document.body.classList.toggle("no-scroll");
+    }
+
+  
 
 });
+
 	

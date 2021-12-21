@@ -504,3 +504,4 @@ C:\Users\datvi\Desktop\UIT\NET Core\framework_IS220.M11_15\WebMusic\WebMusic\obj
 C:\Users\datvi\Desktop\UIT\NET Core\framework_IS220.M11_15\WebMusic\WebMusic\obj\Debug\netcoreapp3.1\WebMusic.dll
 C:\Users\datvi\Desktop\UIT\NET Core\framework_IS220.M11_15\WebMusic\WebMusic\obj\Debug\netcoreapp3.1\WebMusic.pdb
 C:\Users\datvi\Desktop\UIT\NET Core\framework_IS220.M11_15\WebMusic\WebMusic\obj\Debug\netcoreapp3.1\WebMusic.genruntimeconfig.cache
+C:\Users\datvi\Desktop\UIT\NET Core\framework_IS220.M11_15\WebMusic\WebMusic\obj\Debug\netcoreapp3.1\Razor\Views\Ranking\Index.cshtml.g.cs

@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@*<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -44,4 +44,340 @@
         </tr>
 }
     </tbody>
-</table>
+</table>*@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>PLAYLIST</title>
+</head>
+
+<body class="body-playlist">
+    <div class="playlist-container">
+        <!-- Main navigation section -->
+        <div class="main-nav-wrap">
+            <div class="main-nav">
+                <div class="main-nav__item active">
+                    <span>Playlist của tôi</span>
+                </div>
+                <div class="main-nav__item">
+                    <span>Yêu Thích</span>
+                </div>
+                <div class="main-nav__item">
+                    <span>Đã Nghe</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-content active">
+            <div class="playlist-section">
+                <div class="container__header">
+                    <a href="#">
+                        Playlist
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="playlist__list-wrap ">
+                    <div class="playlist__list">
+                        <div class="">
+                            <div class="popup-open playlist-empty">
+                                <i class="fas fa-plus mb-20"></i>
+                                <span>Tạo playlist mới</span>
+                            </div>
+
+                            <div class="popup-wrapper">
+                                <div class="popup">
+                                    <botton class="close-btn"></botton>
+                                    <form class="popup-form">
+                                        <h2 class="popup-form__title">Tạo Playlist</h2>
+                                        <input type="text" class="popup-form__input" placeholder="Nhập tên Playlist">
+                                        <div class="popup-form__radio">
+                                            <input type="radio" name="plan" id="remote" value="remote" checked>
+                                            <label for="remote">Công Khai</label> /
+                                            <input type="radio" name="plan" id="presential" value="presential">
+                                            <label for="presential">Riêng Tư</label>
+                                        </div>
+                                        <button type="submit" class="popup-form__submit">Tạo</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/7/4/e/c/74ec207c9071cd728ae122b47d02212e.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn hide-top">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class="edit-btn more hide-top">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">My Playlist</a>
+                                    <p>Untitled</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/a/b/4/0/ab404a3bcdafa17d525140c153de5fbb.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn like hide-top" data-hide="Xóa khỏi thư viện">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class=" more hide-top" data-hide="Chỉnh sửa">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">Playlist này chill phết</a>
+                                    <p>Mosasic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        @**@
+        <div class="nav-content">
+            <div class="playlist-section">
+                <div class="container__header">
+                    <a href="#">
+                        Yêu Thích
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="playlist__list-wrap ">
+                    <div class="playlist__list">
+                        <div class="">
+                            <div class="popup-open playlist-empty">
+                                <i class="fas fa-plus mb-20"></i>
+                                <span>Tạo playlist mới</span>
+                            </div>
+
+                            <div class="popup-wrapper">
+                                <div class="popup">
+                                    <botton class="close-btn"></botton>
+                                    <form class="popup-form">
+                                        <h2 class="popup-form__title">Tạo Playlist</h2>
+                                        <input type="text" class="popup-form__input" placeholder="Nhập tên Playlist">
+                                        <div class="popup-form__radio">
+                                            <input type="radio" name="plan" id="remote" value="remote" checked>
+                                            <label for="remote">Công Khai</label> /
+                                            <input type="radio" name="plan" id="presential" value="presential">
+                                            <label for="presential">Riêng Tư</label>
+                                        </div>
+                                        <button type="submit" class="popup-form__submit">Tạo</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/7/4/e/c/74ec207c9071cd728ae122b47d02212e.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn like hide-top" data-hide="Xóa khỏi thư viện">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class="more hide-top" data-hide="Chỉnh Sửa">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">My Playlist</a>
+                                    <p>Untitled</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/a/b/4/0/ab404a3bcdafa17d525140c153de5fbb.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn like hide-top" data-hide="Xóa khỏi thư viện">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class=" more hide-top" data-hide="Chỉnh sửa">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">Playlist này chill phết</a>
+                                    <p>Mosasic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-content">
+            <div class="playlist-section">
+                <div class="container__header">
+                    <a href="#">
+                        Đã Nghe
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="playlist__list-wrap ">
+                    <div class="playlist__list">
+                        <div class="">
+                            <div class="popup-open playlist-empty">
+                                <i class="fas fa-plus mb-20"></i>
+                                <span>Tạo playlist mới</span>
+                            </div>
+
+                            <div class="popup-wrapper">
+                                <div class="popup">
+                                    <botton class="close-btn"></botton>
+                                    <form class="popup-form">
+                                        <h2 class="popup-form__title">Tạo Playlist</h2>
+                                        <input type="text" class="popup-form__input" placeholder="Nhập tên Playlist">
+                                        <div class="popup-form__radio">
+                                            <input type="radio" name="plan" id="remote" value="remote" checked>
+                                            <label for="remote">Công Khai</label> /
+                                            <input type="radio" name="plan" id="presential" value="presential">
+                                            <label for="presential">Riêng Tư</label>
+                                        </div>
+                                        <button type="submit" class="popup-form__submit">Tạo</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/7/4/e/c/74ec207c9071cd728ae122b47d02212e.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn like hide-top">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class="more hide-top">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">My Playlist</a>
+                                    <p>Untitled</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="playlist-item container-item">
+                                <div class="container-item__imgbox">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/a/b/4/0/ab404a3bcdafa17d525140c153de5fbb.jpg"
+                                        alt="">
+                                    <div class="item-img-controls">
+                                        <button class="song-heart-btn like hide-top">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <button class="play">
+                                            <i class="play-icon far fa-play-circle"></i>
+                                        </button>
+                                        <button class="more hide-top">
+                                            <i class="far fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="container-item__info">
+                                    <a href="#">Playlist này chill phết</a>
+                                    <p>Mosasic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Popup Edit playlist*@
+    <div class="popup-wrapper1">
+        <div class="popup1">
+									<div class="artist-grid">
+										<a  href="single.html"><img src="images/a3.jpg" title="allbum-name"></a>
+										 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Perfect</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a6.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Hello</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a7.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Hãy Trao Cho Anh</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a4.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Em Gái Mưa</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a5.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Merry Christmas</a>
+										</div>
+										<div class="artist-grid">
+											<a  href="single.html"><img src="images/a1.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+											<a class="art" href="single.html">Happy New Year</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a2.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">I'm The One</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a8.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+											<a class="art" href="single.html">Sorry</a>
+										</div>
+									</div>
+</div>
+    <script src="~/js/scripts.js"></script>
+</body>
+
+</html>
