@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {}
+    "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {}
   },
   "projects": {
-    "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {
+    "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+        "projectUniqueName": "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
         "projectName": "WebMusic",
-        "projectPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+        "projectPath": "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
         "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
+        "outputPath": "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",

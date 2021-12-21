@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xQzzLLBjUcJ8obCP8iTkh+zObRm3qLtMuWKxwcr35YTQRw2KYO8WzL4GgEMjff79O/kLHSWQ5HFcqHg9gIPl1Q==",
+  "dgSpecHash": "uU+JnqRqkEXNCzcrV6Pse7FubflPRkPMqQ9EVAFJIlbqHmwgkP3o6a5hdSvJCft2USrXPjNjzSFiR4RE+FY7YQ==",
   "success": true,
-  "projectFilePath": "D:\\Desktop 2020_2021\\Hoc_Tap_Nam_2\\HK2\\New folder (3)\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
+  "projectFilePath": "D:\\FAME\\Music\\framework_IS220.M11_15\\WebMusic\\WebMusic\\WebMusic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
