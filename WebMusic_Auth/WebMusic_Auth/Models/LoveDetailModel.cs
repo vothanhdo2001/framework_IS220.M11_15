@@ -9,17 +9,19 @@ namespace WebMusic_Auth.Models
 {
     public class LoveDetailModel
     {
-        private int usId;
+        private string usId;
         private int mId;
-
+        [Key]
         [Display(Name = "ID User")]
-        public int UsId { get => this.usId; set => this.usId = value; }
+        public string UsId { get => usId; set => usId = value; }
+        [Key]
         [Display(Name = "ID Bài Hát")]
         public int MId { get => this.mId; set => this.mId = value; }
-        
+
         [ForeignKey("UsId")]
         [Display(Name = "ID User")]
-        public UsersManagerModel User { get; set; }
+        public AppUser User { get; set; }
+
         [ForeignKey("MId")]
         [Display(Name = "ID Bài Hát")]
 

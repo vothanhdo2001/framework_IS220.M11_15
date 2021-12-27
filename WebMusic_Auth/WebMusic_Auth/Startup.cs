@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebMusic_Auth.Data;
+using WebMusic_Auth.Models;
 
 namespace WebMusic_Auth
 {

@@ -10,7 +10,7 @@ namespace WebMusic_Auth.Models
     public class CommentsModel
     {
         private int coId;
-        private int usId;
+        private string usId;
         private int mId;
         private string content;
         private string coStatus;
@@ -22,7 +22,7 @@ namespace WebMusic_Auth.Models
         [Display(Name = "ID Comment")]
         public int CoId { get => this.coId; set => this.coId = value; }
         [Display(Name = "ID User")]
-        public int UsId { get => usId; set => usId = value; }
+        public string UsId { get => usId; set => usId = value; }
         [Display(Name = "ID Bài Hát")]
         public int MId { get => mId; set => mId = value; }
 
@@ -37,10 +37,10 @@ namespace WebMusic_Auth.Models
 
         [Display(Name = "Ngày Tạo")]
         public DateTime CoDate { get => coDate; set => coDate = value; }
-
         [ForeignKey("UsId")]
         [Display(Name = "ID User")]
-        public UsersManagerModel User { get; set; }
+        public AppUser User { get; set; }
+
 
         [ForeignKey("MId")]
         [Display(Name = "ID Bài Hát")]

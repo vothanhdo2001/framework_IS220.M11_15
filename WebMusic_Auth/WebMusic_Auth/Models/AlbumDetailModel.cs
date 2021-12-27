@@ -11,15 +11,13 @@ namespace WebMusic_Auth.Models
     {
         private int aId;
         private int mId;
-        private int usId;
         private int siId;
 
         [Display(Name = "ID Album")]
         public int AId { get => this.aId; set => this.aId = value; }
         [Display(Name = "ID Bài Hát")]
         public int MId { get => this.mId; set => this.mId = value; }
-        [Display(Name = "ID User")]
-        public int UsId { get => this.usId; set => this.usId = value; }
+
         [Display(Name = "ID Ca Sĩ")]
         public int SiId { get => this.siId; set => this.siId = value; }
         
@@ -29,9 +27,6 @@ namespace WebMusic_Auth.Models
         [ForeignKey("SiId")]
         [Display(Name = "ID Ca Sĩ")]
         public SingerModel Singer { get; set; }
-        [ForeignKey("UsId")]
-        [Display(Name = "ID User")]
-        public UsersManagerModel User { get; set; }
         [ForeignKey("MId")]
         [Display(Name = "ID Bài Hát")]
 

@@ -31,13 +31,12 @@ namespace WebMusic_Auth.Data.Migrations
                 name: "FK_AspNetUserTokens_AspNetUsers_UserId",
                 table: "AspNetUserTokens");
 
+            migrationBuilder.DropTable(
+                name: "AspNetUsers");
+
             migrationBuilder.DropPrimaryKey(
                 name: "PK_AspNetUserTokens",
                 table: "AspNetUserTokens");
-
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_AspNetUsers",
-                table: "AspNetUsers");
 
             migrationBuilder.DropPrimaryKey(
                 name: "PK_AspNetUserRoles",
@@ -62,10 +61,6 @@ namespace WebMusic_Auth.Data.Migrations
             migrationBuilder.RenameTable(
                 name: "AspNetUserTokens",
                 newName: "UserTokens");
-
-            migrationBuilder.RenameTable(
-                name: "AspNetUsers",
-                newName: "Users");
 
             migrationBuilder.RenameTable(
                 name: "AspNetUserRoles",
@@ -111,11 +106,6 @@ namespace WebMusic_Auth.Data.Migrations
                 name: "PK_UserTokens",
                 table: "UserTokens",
                 columns: new[] { "UserId", "LoginProvider", "Name" });
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_Users",
-                table: "Users",
-                column: "Id");
 
             migrationBuilder.AddPrimaryKey(
                 name: "PK_UserRoles",
@@ -179,6 +169,7 @@ namespace WebMusic_Auth.Data.Migrations
                 {
                     PId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    UsId = table.Column<int>(nullable: false),
                     PName = table.Column<string>(maxLength: 50, nullable: true),
                     PDate = table.Column<DateTime>(nullable: false),
                     PStatus = table.Column<string>(maxLength: 10, nullable: true)
@@ -223,69 +214,28 @@ namespace WebMusic_Auth.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "usersManager",
+                name: "Users",
                 columns: table => new
                 {
-                    UsId = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NickName = table.Column<string>(nullable: true),
-                    Sex = table.Column<string>(nullable: true),
-                    UsRank = table.Column<string>(nullable: true),
-                    UsStatus = table.Column<string>(nullable: true),
-                    Photo = table.Column<string>(nullable: true),
-                    IdLogin = table.Column<string>(nullable: true)
+                    Id = table.Column<string>(nullable: false),
+                    UserName = table.Column<string>(maxLength: 256, nullable: true),
+                    NormalizedUserName = table.Column<string>(maxLength: 256, nullable: true),
+                    Email = table.Column<string>(maxLength: 256, nullable: true),
+                    NormalizedEmail = table.Column<string>(maxLength: 256, nullable: true),
+                    EmailConfirmed = table.Column<bool>(nullable: false),
+                    PasswordHash = table.Column<string>(nullable: true),
+                    SecurityStamp = table.Column<string>(nullable: true),
+                    ConcurrencyStamp = table.Column<string>(nullable: true),
+                    PhoneNumber = table.Column<string>(nullable: true),
+                    PhoneNumberConfirmed = table.Column<bool>(nullable: false),
+                    TwoFactorEnabled = table.Column<bool>(nullable: false),
+                    LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
+                    LockoutEnabled = table.Column<bool>(nullable: false),
+                    AccessFailedCount = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_usersManager", x => x.UsId);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "categoryDetail",
-                columns: table => new
-                {
-                    CaId = table.Column<int>(nullable: false),
-                    MId = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_categoryDetail", x => new { x.MId, x.CaId });
-                    table.ForeignKey(
-                        name: "FK_categoryDetail_category_CaId",
-                        column: x => x.CaId,
-                        principalTable: "category",
-                        principalColumn: "CaId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_categoryDetail_song_MId",
-                        column: x => x.MId,
-                        principalTable: "song",
-                        principalColumn: "MId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "songDetail",
-                columns: table => new
-                {
-                    SiId = table.Column<int>(nullable: false),
-                    MId = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_songDetail", x => new { x.SiId, x.MId });
-                    table.ForeignKey(
-                        name: "FK_songDetail_song_MId",
-                        column: x => x.MId,
-                        principalTable: "song",
-                        principalColumn: "MId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_songDetail_singer_SiId",
-                        column: x => x.SiId,
-                        principalTable: "singer",
-                        principalColumn: "SiId",
-                        onDelete: ReferentialAction.Cascade);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -318,11 +268,29 @@ namespace WebMusic_Auth.Data.Migrations
                         principalTable: "singer",
                         principalColumn: "SiId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "categoryDetail",
+                columns: table => new
+                {
+                    CaId = table.Column<int>(nullable: false),
+                    MId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_categoryDetail", x => new { x.MId, x.CaId });
                     table.ForeignKey(
-                        name: "FK_albumDetail_usersManager_UsId",
-                        column: x => x.UsId,
-                        principalTable: "usersManager",
-                        principalColumn: "UsId",
+                        name: "FK_categoryDetail_category_CaId",
+                        column: x => x.CaId,
+                        principalTable: "category",
+                        principalColumn: "CaId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_categoryDetail_song_MId",
+                        column: x => x.MId,
+                        principalTable: "song",
+                        principalColumn: "MId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -347,12 +315,6 @@ namespace WebMusic_Auth.Data.Migrations
                         principalTable: "song",
                         principalColumn: "MId",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_comments_usersManager_UsId",
-                        column: x => x.UsId,
-                        principalTable: "usersManager",
-                        principalColumn: "UsId",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -370,12 +332,6 @@ namespace WebMusic_Auth.Data.Migrations
                         column: x => x.MId,
                         principalTable: "song",
                         principalColumn: "MId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_history_usersManager_UsId",
-                        column: x => x.UsId,
-                        principalTable: "usersManager",
-                        principalColumn: "UsId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -395,25 +351,18 @@ namespace WebMusic_Auth.Data.Migrations
                         principalTable: "song",
                         principalColumn: "MId",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_loveDetail_usersManager_UsId",
-                        column: x => x.UsId,
-                        principalTable: "usersManager",
-                        principalColumn: "UsId",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "playlistDetail",
                 columns: table => new
                 {
-                    UsId = table.Column<int>(nullable: false),
                     PId = table.Column<int>(nullable: false),
                     MId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_playlistDetail", x => new { x.MId, x.PId, x.UsId });
+                    table.PrimaryKey("PK_playlistDetail", x => new { x.MId, x.PId });
                     table.ForeignKey(
                         name: "FK_playlistDetail_song_MId",
                         column: x => x.MId,
@@ -426,11 +375,29 @@ namespace WebMusic_Auth.Data.Migrations
                         principalTable: "playlist",
                         principalColumn: "PId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "songDetail",
+                columns: table => new
+                {
+                    SiId = table.Column<int>(nullable: false),
+                    MId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_songDetail", x => new { x.SiId, x.MId });
                     table.ForeignKey(
-                        name: "FK_playlistDetail_usersManager_UsId",
-                        column: x => x.UsId,
-                        principalTable: "usersManager",
-                        principalColumn: "UsId",
+                        name: "FK_songDetail_song_MId",
+                        column: x => x.MId,
+                        principalTable: "song",
+                        principalColumn: "MId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_songDetail_singer_SiId",
+                        column: x => x.SiId,
+                        principalTable: "singer",
+                        principalColumn: "SiId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -445,11 +412,6 @@ namespace WebMusic_Auth.Data.Migrations
                 column: "SiId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_albumDetail_UsId",
-                table: "albumDetail",
-                column: "UsId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_categoryDetail_CaId",
                 table: "categoryDetail",
                 column: "CaId");
@@ -458,11 +420,6 @@ namespace WebMusic_Auth.Data.Migrations
                 name: "IX_comments_MId",
                 table: "comments",
                 column: "MId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_comments_UsId",
-                table: "comments",
-                column: "UsId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_history_MId",
@@ -480,14 +437,21 @@ namespace WebMusic_Auth.Data.Migrations
                 column: "PId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_playlistDetail_UsId",
-                table: "playlistDetail",
-                column: "UsId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_songDetail_MId",
                 table: "songDetail",
                 column: "MId");
+
+            migrationBuilder.CreateIndex(
+                name: "EmailIndex",
+                table: "Users",
+                column: "NormalizedEmail");
+
+            migrationBuilder.CreateIndex(
+                name: "UserNameIndex",
+                table: "Users",
+                column: "NormalizedUserName",
+                unique: true,
+                filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_RoleClaims_Roles_RoleId",
@@ -586,6 +550,9 @@ namespace WebMusic_Auth.Data.Migrations
                 name: "songDetail");
 
             migrationBuilder.DropTable(
+                name: "Users");
+
+            migrationBuilder.DropTable(
                 name: "album");
 
             migrationBuilder.DropTable(
@@ -593,9 +560,6 @@ namespace WebMusic_Auth.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "playlist");
-
-            migrationBuilder.DropTable(
-                name: "usersManager");
 
             migrationBuilder.DropTable(
                 name: "song");
@@ -606,10 +570,6 @@ namespace WebMusic_Auth.Data.Migrations
             migrationBuilder.DropPrimaryKey(
                 name: "PK_UserTokens",
                 table: "UserTokens");
-
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_Users",
-                table: "Users");
 
             migrationBuilder.DropPrimaryKey(
                 name: "PK_UserRoles",
@@ -634,10 +594,6 @@ namespace WebMusic_Auth.Data.Migrations
             migrationBuilder.RenameTable(
                 name: "UserTokens",
                 newName: "AspNetUserTokens");
-
-            migrationBuilder.RenameTable(
-                name: "Users",
-                newName: "AspNetUsers");
 
             migrationBuilder.RenameTable(
                 name: "UserRoles",
@@ -685,11 +641,6 @@ namespace WebMusic_Auth.Data.Migrations
                 columns: new[] { "UserId", "LoginProvider", "Name" });
 
             migrationBuilder.AddPrimaryKey(
-                name: "PK_AspNetUsers",
-                table: "AspNetUsers",
-                column: "Id");
-
-            migrationBuilder.AddPrimaryKey(
                 name: "PK_AspNetUserRoles",
                 table: "AspNetUserRoles",
                 columns: new[] { "UserId", "RoleId" });
@@ -713,6 +664,43 @@ namespace WebMusic_Auth.Data.Migrations
                 name: "PK_AspNetRoleClaims",
                 table: "AspNetRoleClaims",
                 column: "Id");
+
+            migrationBuilder.CreateTable(
+                name: "AspNetUsers",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AccessFailedCount = table.Column<int>(type: "int", nullable: false),
+                    ConcurrencyStamp = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
+                    EmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
+                    LockoutEnabled = table.Column<bool>(type: "bit", nullable: false),
+                    LockoutEnd = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
+                    NormalizedEmail = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
+                    NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
+                    PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PhoneNumberConfirmed = table.Column<bool>(type: "bit", nullable: false),
+                    SecurityStamp = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TwoFactorEnabled = table.Column<bool>(type: "bit", nullable: false),
+                    UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "EmailIndex",
+                table: "AspNetUsers",
+                column: "NormalizedEmail");
+
+            migrationBuilder.CreateIndex(
+                name: "UserNameIndex",
+                table: "AspNetUsers",
+                column: "NormalizedUserName",
+                unique: true,
+                filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_AspNetRoleClaims_AspNetRoles_RoleId",

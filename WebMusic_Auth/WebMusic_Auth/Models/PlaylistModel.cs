@@ -10,6 +10,7 @@ namespace WebMusic_Auth.Models
     public class PlaylistModel
     {
         private int pId;
+        private string usId;
         private string pName;
         private DateTime pDate;
         private string pStatus;
@@ -18,6 +19,8 @@ namespace WebMusic_Auth.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Display(Name = "ID Play List")]
         public int PId { get => pId; set => pId = value; }
+        [Display(Name = "ID User")]
+        public string UsId { get => usId; set => usId = value; }
         [Display(Name = "Tên PlayList")]
         [StringLength(50, ErrorMessage = "Too long!")]
         public string PName { get => pName; set => pName = value; }
@@ -27,6 +30,10 @@ namespace WebMusic_Auth.Models
         [Display(Name = "Trạng Thái")]
         [StringLength(10, ErrorMessage = "Too long!")]
         public string PStatus { get => pStatus; set => pStatus = value; }
+
+        [ForeignKey("UsId")]
+        [Display(Name = "ID User")]
+        public AppUser User { get; set; }
 
         public ICollection<PlaylistDetailModel> PlaylistDetails { get; set; }
     }

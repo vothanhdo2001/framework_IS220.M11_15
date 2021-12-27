@@ -82,6 +82,10 @@ namespace WebMusic_Auth.Data.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
@@ -133,6 +137,8 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("Users");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -227,19 +233,14 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<int>("MId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UsId")
-                        .HasColumnType("int");
-
                     b.Property<int>("SiId")
                         .HasColumnType("int");
 
-                    b.HasKey("AId", "MId", "UsId", "SiId");
+                    b.HasKey("AId", "MId", "SiId");
 
                     b.HasIndex("MId");
 
                     b.HasIndex("SiId");
-
-                    b.HasIndex("UsId");
 
                     b.ToTable("albumDetail");
                 });
@@ -269,7 +270,12 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<string>("SName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UsId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("AId");
+
+                    b.HasIndex("UsId");
 
                     b.ToTable("album");
                 });
@@ -326,8 +332,8 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<int>("MId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UsId")
-                        .HasColumnType("int");
+                    b.Property<string>("UsId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("CoId");
 
@@ -340,30 +346,30 @@ namespace WebMusic_Auth.Data.Migrations
 
             modelBuilder.Entity("WebMusic_Auth.Models.HistoryModel", b =>
                 {
-                    b.Property<int>("UsId")
-                        .HasColumnType("int");
-
                     b.Property<int>("MId")
                         .HasColumnType("int");
 
-                    b.HasKey("UsId", "MId");
+                    b.Property<string>("UsId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasIndex("MId");
+                    b.HasKey("MId", "UsId");
+
+                    b.HasIndex("UsId");
 
                     b.ToTable("history");
                 });
 
             modelBuilder.Entity("WebMusic_Auth.Models.LoveDetailModel", b =>
                 {
-                    b.Property<int>("UsId")
-                        .HasColumnType("int");
-
                     b.Property<int>("MId")
                         .HasColumnType("int");
 
-                    b.HasKey("UsId", "MId");
+                    b.Property<string>("UsId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasIndex("MId");
+                    b.HasKey("MId", "UsId");
+
+                    b.HasIndex("UsId");
 
                     b.ToTable("loveDetail");
                 });
@@ -376,14 +382,9 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<int>("PId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("MId", "PId", "UsId");
+                    b.HasKey("MId", "PId");
 
                     b.HasIndex("PId");
-
-                    b.HasIndex("UsId");
 
                     b.ToTable("playlistDetail");
                 });
@@ -406,7 +407,12 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasColumnType("nvarchar(10)")
                         .HasMaxLength(10);
 
+                    b.Property<string>("UsId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("PId");
+
+                    b.HasIndex("UsId");
 
                     b.ToTable("playlist");
                 });
@@ -487,15 +493,9 @@ namespace WebMusic_Auth.Data.Migrations
                     b.ToTable("song");
                 });
 
-            modelBuilder.Entity("WebMusic_Auth.Models.UsersManagerModel", b =>
+            modelBuilder.Entity("WebMusic_Auth.Models.AppUser", b =>
                 {
-                    b.Property<int>("UsId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IdLogin")
-                        .HasColumnType("nvarchar(max)");
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("NickName")
                         .HasColumnType("nvarchar(max)");
@@ -512,9 +512,7 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<string>("UsStatus")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UsId");
-
-                    b.ToTable("usersManager");
+                    b.HasDiscriminator().HasValue("AppUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -587,12 +585,13 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasForeignKey("SiId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
 
-                    b.HasOne("WebMusic_Auth.Models.UsersManagerModel", "User")
-                        .WithMany("AlbumDetailModels")
-                        .HasForeignKey("UsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            modelBuilder.Entity("WebMusic_Auth.Models.AlbumModel", b =>
+                {
+                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
+                        .WithMany("AlbumModels")
+                        .HasForeignKey("UsId");
                 });
 
             modelBuilder.Entity("WebMusic_Auth.Models.CategoryDetailModel", b =>
@@ -618,11 +617,9 @@ namespace WebMusic_Auth.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebMusic_Auth.Models.UsersManagerModel", "User")
+                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
                         .WithMany("CommentsModels")
-                        .HasForeignKey("UsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsId");
                 });
 
             modelBuilder.Entity("WebMusic_Auth.Models.HistoryModel", b =>
@@ -633,7 +630,7 @@ namespace WebMusic_Auth.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebMusic_Auth.Models.UsersManagerModel", "User")
+                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
                         .WithMany()
                         .HasForeignKey("UsId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -648,7 +645,7 @@ namespace WebMusic_Auth.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebMusic_Auth.Models.UsersManagerModel", "User")
+                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
                         .WithMany("LoveDetailModels")
                         .HasForeignKey("UsId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -668,12 +665,13 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasForeignKey("PId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
 
-                    b.HasOne("WebMusic_Auth.Models.UsersManagerModel", "User")
-                        .WithMany("PlaylistDetailModels")
-                        .HasForeignKey("UsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            modelBuilder.Entity("WebMusic_Auth.Models.PlaylistModel", b =>
+                {
+                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
+                        .WithMany("PlaylistModels")
+                        .HasForeignKey("UsId");
                 });
 
             modelBuilder.Entity("WebMusic_Auth.Models.SongDetailModel", b =>
