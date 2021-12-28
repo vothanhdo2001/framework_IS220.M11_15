@@ -31,7 +31,7 @@ namespace WebMusic_Auth
             services.AddDbContext<MusicContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<MusicContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
