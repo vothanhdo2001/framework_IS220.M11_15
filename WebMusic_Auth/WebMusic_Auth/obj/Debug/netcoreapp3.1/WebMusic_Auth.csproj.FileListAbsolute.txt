@@ -207,3 +207,5 @@ D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Deb
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Paging.cshtml.g.cs
+D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\AddUserRole.cshtml.g.cs

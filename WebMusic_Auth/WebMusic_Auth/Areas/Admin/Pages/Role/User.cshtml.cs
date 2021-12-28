@@ -42,9 +42,9 @@ namespace WebMusic_Auth.Areas.Admin.Pages.Role
 
         public async Task<IActionResult> OnGet()
         {
-            //roles = await _roleManager.Roles.ToListAsync();
+
             var cuser = await _userManager.GetUserAsync(User);
-            await _userManager.AddToRolesAsync(cuser, new string[] { "Editor" });
+            //await _userManager.AddToRolesAsync(cuser, new string[] { "Editor" });
 
             if (pageNumber == 0)
                 pageNumber = 1;
@@ -65,7 +65,7 @@ namespace WebMusic_Auth.Areas.Admin.Pages.Role
 
             users = await lusers.Skip(USER_PER_PAGE * (pageNumber - 1)).Take(USER_PER_PAGE).ToListAsync();
 
-            //users.ForEach(async (user) => {
+            // users.ForEach(async (user) => {
             //     var roles = await _userManager.GetRolesAsync(user);
             //     user.listroles = string.Join(",", roles.ToList());
             // });
