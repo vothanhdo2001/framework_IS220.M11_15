@@ -14,7 +14,7 @@ namespace WebMusic_Auth.Data
         {
 
         }
-        public DbSet<UsersManagerModel> UsersModel { get; set; }
+       // public DbSet<AppUser> UsersModel { get; set; }
         public DbSet<AlbumModel> AlbumModel { get; set; }
         public DbSet<SongDetailModel> SongDetailModel { get; set; }
         public DbSet<SingerModel> SingerModel { get; set; }
@@ -39,19 +39,19 @@ namespace WebMusic_Auth.Data
                     entityType.SetTableName(tableName.Substring(6));
                 }
             }
-            modelBuilder.Entity<UsersManagerModel>().ToTable("usersManager").HasKey(c => c.UsId); 
+            //modelBuilder.Entity<AppUser>().ToTable("usersManager").HasKey(); 
             modelBuilder.Entity<AlbumModel>().ToTable("album").HasKey(c => c.AId);
             modelBuilder.Entity<SongDetailModel>().ToTable("songDetail").HasKey(c => new { c.SiId, c.MId }); 
             modelBuilder.Entity<SingerModel>().ToTable("singer").HasKey(c => c.SiId);
-            modelBuilder.Entity<AlbumDetailModel>().ToTable("albumDetail").HasKey(c => new { c.AId, c.MId, c.UsId, c.SiId });
-            modelBuilder.Entity<LoveDetailModel>().ToTable("loveDetail").HasKey(c => new { c.UsId, c.MId }); ;
+            modelBuilder.Entity<AlbumDetailModel>().ToTable("albumDetail").HasKey(c => new { c.AId, c.MId, c.SiId });
+            modelBuilder.Entity<LoveDetailModel>().ToTable("loveDetail").HasKey(c => new { c.MId, c.UsId }); ;
             modelBuilder.Entity<SongModel>().ToTable("song").HasKey(c => c.MId);
             modelBuilder.Entity<PlaylistModel>().ToTable("playlist").HasKey(c => c.PId);
-            modelBuilder.Entity<PlaylistDetailModel>().ToTable("playlistDetail").HasKey(c => new { c.MId, c.PId, c.UsId });
+            modelBuilder.Entity<PlaylistDetailModel>().ToTable("playlistDetail").HasKey(c => new { c.MId, c.PId});
             modelBuilder.Entity<CategoryModel>().ToTable("category").HasKey(c => c.CaId);
             modelBuilder.Entity<CategoryDetailModel>().ToTable("categoryDetail").HasKey(c => new { c.MId, c.CaId });
             modelBuilder.Entity<CommentsModel>().ToTable("comments").HasKey(c => c.CoId);
-            modelBuilder.Entity<HistoryModel>().ToTable("history").HasKey(c => new { c.UsId, c.MId }); ;
+            modelBuilder.Entity<HistoryModel>().ToTable("history").HasKey(c => new { c.MId, c.UsId }); ;
         }
 
     }

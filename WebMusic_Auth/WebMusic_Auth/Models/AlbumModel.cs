@@ -16,11 +16,14 @@ namespace WebMusic_Auth.Models
         private string intro;
         private string photo;
         private string aStatus;
+        private string usId;
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Display(Name = "ID Album")]
         public int AId { get => this.aId; set => this.aId = value; }
+        [Display(Name = "ID User")]
+        public string UsId { get => usId; set => usId = value; }
         [Display(Name = "Tên Album")]
         public string AName { get => this.aName; set => this.aName = value; }
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
@@ -34,6 +37,10 @@ namespace WebMusic_Auth.Models
         public string Photo { get => this.photo; set => this.photo = value; }
         [Display(Name = "Trạng Thái")]
         public string AStatus { get => this.aStatus; set => this.aStatus = value; }
+        [ForeignKey("UsId")]
+        [Display(Name = "ID User")]
+        public AppUser User { get; set; }
+
         ICollection<AlbumDetailModel> AlbumDetailModels { get; set; }
     }
 }

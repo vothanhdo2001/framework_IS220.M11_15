@@ -9,20 +9,16 @@ namespace WebMusic_Auth.Models
 {
     public class PlaylistDetailModel
     {
-        private int usId;
+        
         private int pId;
         private int mId;
 
-        [Display(Name = "ID User")]
-        public int UsId { get => usId; set => usId = value; }
+        
         [Display(Name = "ID PlayList")]
         public int PId { get => pId; set => pId = value; }
         [Display(Name = "ID Bài Hát")]
         public int MId { get => mId; set => mId = value; }
 
-        [ForeignKey("UsId")]
-        [Display(Name = "ID User")]
-        public UsersManagerModel User { get; set; }
 
         [ForeignKey("PId")]
         [Display(Name = "ID PlayList")]

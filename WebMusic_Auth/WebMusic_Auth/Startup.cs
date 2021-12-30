@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebMusic_Auth.Data;
+using WebMusic_Auth.Models;
+using WebMusic_Auth.Services;
 
 namespace WebMusic_Auth
 {
@@ -30,8 +32,10 @@ namespace WebMusic_Auth
             services.AddDbContext<MusicContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<MusicContext>();
+            services.AddIdentity<AppUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<MusicContext>()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.Configure<IdentityOptions>(options =>
@@ -52,6 +56,8 @@ namespace WebMusic_Auth
                 // User settings
                 options.User.RequireUniqueEmail = true;
             });
+
+            services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

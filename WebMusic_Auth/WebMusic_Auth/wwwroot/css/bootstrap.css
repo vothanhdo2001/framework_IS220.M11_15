@@ -1089,7 +1089,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
+  color: #eee;
   background-color: #170f23;
 }
 input,
@@ -1604,6 +1604,7 @@ pre code {
   margin-left: auto;
 }
 .row {
+  padding: 15px;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -3086,9 +3087,11 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+    color: #fff;
+    background-color: #0d5cb6;
+    border-color: #2e6da4;
+    margin-top: 10px;
+    margin-bottom: 150px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
