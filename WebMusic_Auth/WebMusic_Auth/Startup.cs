@@ -1,8 +1,10 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +31,10 @@ namespace WebMusic_Auth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();                                         // Kích hoạt Options
+            var mailsettings = Configuration.GetSection("MailSettings");  // đọc config
+            services.Configure<MailSettings>(mailsettings);                // đăng ký để Inject
+            services.AddTransient<IEmailSender, SendMailService>();
             services.AddDbContext<MusicContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -88,6 +94,22 @@ namespace WebMusic_Auth
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+
+                endpoints.MapGet("/TestSendMail", async (context) =>
+                {
+                    await MailUtils.MailUtils.SendMailGoogleSmtp("nghenhacvui2022@gmail.com", "vothanhdo20013@gmail.com", "Test Gamil", "Xin chào alo", "nghenhacvui2022@gmail.com", "Abcd1234a@");
+                });
+                endpoints.MapGet("/TestSend", async (context) =>
+                {
+                    var sendMailService = context.RequestServices.GetService<SendMailService>();
+                    var mailContent = new MailContent();
+                    mailContent.To = "vothanhdo20013@gmail.com";
+                    mailContent.Subject = "Test";
+                    mailContent.Body = "Test";
+                    await sendMailService.SendMail(mailContent);
+                    await context.Response.WriteAsync("Thanh");
+                    
+                });
             });
         }
     }

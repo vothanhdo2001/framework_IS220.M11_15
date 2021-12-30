@@ -210,3 +210,6 @@ D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Deb
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Paging.cshtml.g.cs
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\AddUserRole.cshtml.g.cs
 D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\libman.json
+D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\Rac\New folder (6)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
