@@ -1,9 +1,15 @@
 ﻿@page
 @model RegisterModel
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "ĐĂNG KÝ";
 }
 
+<<<<<<< HEAD
+
+<div class="row">
+    <h1>@ViewData["Title"]</h1>
+    <div class="register">
+=======
 <div class="row gx-xl-3 justify-content-center">
                 <div class="col">
                     <h2 class="m-0 text-center">Tạo tài khoản</h2>
@@ -13,6 +19,7 @@
             </div>
 <div class="row gx-xl-3 justify-content-center ">
     <div class="col-lg-6 col-xl-6 mb-2">
+>>>>>>> master
         <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <hr />
             <div asp-validation-summary="All" class="text-danger"></div>
@@ -42,6 +49,8 @@
                 </div>
         </form>
     </div>
+<<<<<<< HEAD
+=======
     @*<div class="col-md-6 col-md-offset-2">
         <section>
             <h4>Use another service to register.</h4>
@@ -72,6 +81,7 @@
             }
         </section>
     </div>*@
+>>>>>>> master
 </div>
 
 @section Scripts {

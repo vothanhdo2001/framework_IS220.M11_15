@@ -1,0 +1,122 @@
+﻿@model IEnumerable<WebMusic_Auth.Models.AlbumModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ADate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ADate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AStatus)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
+
+<div class="albums second">
+										<div class="tittle-head">
+											<h3 class="tittle">Discover <span class="new">View</span></h3>
+											<div class="clearfix"> </div>
+										</div>
+											<div class="col-md-3 content-grid content-grid1">
+												<a href="single.html"><img src="~/images/v11.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>
+												
+											</div>
+											<div class="col-md-3 content-grid content-grid1">
+													<a href="single.html"><img src="~/images/v22.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>
+												</div>
+											<div class="col-md-3 content-grid content-grid1">
+													<a href="single.html"><img src="~/images/v33.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>												
+												</div>
+											<div class="col-md-3 content-grid content-grid1 last-grid">
+													<a href="single.html"><img src="~/images/v44.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>											
+												</div>
+											<div class="col-md-3 content-grid content-grid1">
+													<a href="single.html"><img src="~/images/v55.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>											
+												</div>
+											<div class="col-md-3 content-grid content-grid1">
+												<a href="single.html"><img src="~/images/v66.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>
+												</div>
+											<div class="col-md-3 content-grid content-grid1">
+													<a href="single.html"><img src="~/images/v11.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>
+												</div>
+											<div class="col-md-3 content-grid content-grid1 last-grid">
+													<a href="single.html"><img src="~/images/v22.jpg" title="allbum-name"></a>
+												<div class="btn-hover">
+													<div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+												</div>
+												</div>
+											<div class="clearfix"> </div>
+									</div>
