@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rac\\New folder (9)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {}
+    "D:\\Đồ Án Môn Học\\Xây dựng HTTT trên các framework\\new2\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {}
   },
   "projects": {
-    "D:\\Rac\\New folder (9)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {
+    "D:\\Đồ Án Môn Học\\Xây dựng HTTT trên các framework\\new2\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rac\\New folder (9)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+        "projectUniqueName": "D:\\Đồ Án Môn Học\\Xây dựng HTTT trên các framework\\new2\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
         "projectName": "WebMusic_Auth",
-        "projectPath": "D:\\Rac\\New folder (9)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
-        "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-        "outputPath": "D:\\Rac\\New folder (9)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
+        "projectPath": "D:\\Đồ Án Môn Học\\Xây dựng HTTT trên các framework\\new2\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ Án Môn Học\\Xây dựng HTTT trên các framework\\new2\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

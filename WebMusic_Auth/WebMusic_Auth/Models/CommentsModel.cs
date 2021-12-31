@@ -14,7 +14,6 @@ namespace WebMusic_Auth.Models
         private int mId;
         private string content;
         private string coStatus;
-        private DateTime coDate;
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -33,10 +32,6 @@ namespace WebMusic_Auth.Models
         [StringLength(10, ErrorMessage = "Too long!")]
         public string CoStatus { get => coStatus; set => coStatus = value; }
 
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyy}", ApplyFormatInEditMode = true)]
-
-        [Display(Name = "Ngày Tạo")]
-        public DateTime CoDate { get => coDate; set => coDate = value; }
         [ForeignKey("UsId")]
         [Display(Name = "ID User")]
         public AppUser User { get; set; }
