@@ -1,0 +1,54 @@
+﻿@model WebMusic_Auth.Models.SongModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SongModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Song)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Song)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lyrics)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lyrics)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Files)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Files)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nviews)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nviews)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.MId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

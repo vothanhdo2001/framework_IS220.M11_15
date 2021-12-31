@@ -32,7 +32,7 @@ namespace WebMusic_Auth.Models
         public ICollection<CommentsModel> CommentsModels { get; set; }
         public ICollection<LoveDetailModel> LoveDetailModels { get; set; }
         public ICollection<PlaylistModel> PlaylistModels { get; set; }
-        public ICollection<AlbumModel> AlbumModels { get; set; }
+
 
     }
 }

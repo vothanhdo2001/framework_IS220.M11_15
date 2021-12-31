@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebMusic_Auth.Models.AlbumModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<p>
+    <a class="btn btn-warning" asp-action="Create">Tạo mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.AId">Sửa</a> |
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.AId">Chi tiết</a> |
+                <a class="btn btn-google"asp-action="Delete" asp-route-id="@item.AId">Xoá</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

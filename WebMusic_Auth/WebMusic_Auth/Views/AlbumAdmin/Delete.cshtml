@@ -1,0 +1,38 @@
+﻿@model WebMusic_Auth.Models.AlbumModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn có muốn xoá không?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Intro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Intro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Xoá">
+        <input type="hidden" asp-for="AId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Quay lại</a>
+    </form>
+</div>
