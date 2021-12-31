@@ -33,6 +33,6 @@
 | 1      | 19521365      | Võ Thành Đô            |  19521365@gm.uit.edu.vn                                 | 0399054682              |
 | 2      | 19521061      | Lê Nguyễn Minh Trung   |                                                         |                         |
 | 3      | 19521816      | Nguyễn Quốc Lưu        |                                                         |                         |
-| 4      | 17521253      | Đinh Đạt Vi            |                                                         |                         |
+| 4      | 17521253      | Đinh Đạt Vi            |  17521253@gm.uit.edu.vn                                 | 0707324939              |
 ## ĐỒ ÁN CUỐI KỲ
 -  Xây dựng website nghe nhạc trực tuyến
