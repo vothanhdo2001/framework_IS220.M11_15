@@ -21,7 +21,7 @@ html, body {
 	font-family: 'Lato-Regular';
 	font-size: 100%;
 	overflow-x: hidden;
-	background: #f9f9f9;
+	background: #170f23;
 }
 
 @font-face {
@@ -6889,6 +6889,7 @@ input[type="radio"] {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 300px;
 }
 
 .register > form {

@@ -5,24 +5,10 @@
     ViewData["Title"] = "ĐĂNG NHẬP";
 }
 
-<<<<<<< HEAD
-
 <div class="row">
     <h1>@ViewData["Title"]</h1>
     <div class="register">
         <section style="width: 50%; text-align: left;">
-=======
- <div class="row gx-xl-3 justify-content-center">
-                <div class="col">
-                    <h2 class="m-0 text-center">Đăng nhập</h2>
-                    <br>
-                    <p class=" text-center ">Chào mừng bạn ghé thăm, chúc bạn có những phút giây thư giãn.</p>
-                </div>
-            </div>
-<div class="row gx-xl-3 justify-content-center">
-    <div class="col-lg-6 col-xl-6 mb-2">
-        <section>
->>>>>>> master
             <form id="account" method="post">
                 <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
@@ -41,7 +27,7 @@
                         <label asp-for="Input.RememberMe">
                             
                             <input asp-for="Input.RememberMe" />
-                            Nhớ mật khuẩu
+                            Nhớ mật khẩu
                         </label>
                     </div>
                 </div>
@@ -60,39 +46,6 @@
             </form>
         </section>
     </div>
-<<<<<<< HEAD
-=======
-@*    <div class="col-md-6 col-md-offset-2">
-        <section>
-            <h4>Use another service to log in.</h4>
-            <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
-                        </p>
-                    </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            }
-        </section>
-    </div>*@
->>>>>>> master
 </div>
 
 @section Scripts {

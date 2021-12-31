@@ -9062,19 +9062,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\votha\\.nuget\\packages\\": {}
+    "C:\\Users\\datvi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rac\\New folder (10)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+      "projectUniqueName": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
       "projectName": "WebMusic_Auth",
-      "projectPath": "D:\\Rac\\New folder (10)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
-      "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-      "outputPath": "D:\\Rac\\New folder (10)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
+      "projectPath": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+      "packagesPath": "C:\\Users\\datvi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\datvi\\Desktop\\UIT\\NET Core\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\datvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -17,6 +17,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        public static System.Text.Encoding UTF8 { get; }
 
         public ConfirmEmailChangeModel(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
