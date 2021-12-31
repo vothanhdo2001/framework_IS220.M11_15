@@ -5,10 +5,7 @@
 @inject UserManager<AppUser> UserManager
 <!-- Topbar -->
 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-    <!-- Sidebar Toggle (Topbar) -->
-    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-        <i class="fa fa-bars"></i>
-    </button>
+
 
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto">
@@ -21,24 +18,15 @@
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">@UserManager.GetUserName(User)</span>
-                <img class="img-profile rounded-circle bg-dark" src="https://xuanthulab.net/public/img/logo.png">
             </a>
-            <!-- Dropdown - User Information -->
-            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" asp-page="/Account/Manage/Index">
-                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Hồ sơ
-                </a> 
-                <div class="dropdown-divider"></div>
-         
-                <a class="dropdown-item"
-                  asp-area="Identity" asp-page="/Account/Logout" 
-                  asp-route-returnUrl="@Url.Page("/Index", new { area = "" })">
-                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Đăng xuất
-                </a>
+            
+            
  
-            </div>
+        </li>
+        <li>
+            <a class="nav-link" href="/home/">
+               <button class="btn btn-danger mt-2">Thoát</button>
+            </a>
         </li>
 
     </ul>
