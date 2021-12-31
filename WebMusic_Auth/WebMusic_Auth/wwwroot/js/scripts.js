@@ -217,14 +217,14 @@ $(document).ready(function () {
                 height: '100%'
             });
             $('#show-lyrics-svg').css("fill", "#1c86dd");
-            $('#show-lyrics').css("background-image", 'url("/images/background-lyrics4.jpg")');
+            $('#show-lyrics').css("background-color", 'url("/images/background-lyrics4.jpg")');
 
         } else {
             $("#show-lyrics").animate({
                 height: '0'
             });
             $('#show-lyrics-svg').css("fill", "#dadada");
-            $('#show-lyrics').css("background-image", 'none');
+            $('#show-lyrics').css("background-color", 'none');
         }
 
     });

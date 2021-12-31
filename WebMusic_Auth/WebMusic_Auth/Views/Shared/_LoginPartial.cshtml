@@ -15,7 +15,9 @@
                 <i class="bi bi-caret-down-fill expand-user"></i>
             </div>
             <div class="dropdown-options">
-                       <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity.Name</a>
+                       <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Tài khoản</a>
+                       <a asp-area="Identity" asp-page="/Account/Manage/Email" title="Manage">Email</a>
+                       <a asp-area="Identity" asp-page="/Account/Manage/ChangePassword" title="Manage">Đổi mật khẩu</a>
                         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button  type="submit" class="nav-link btn btn-link text-dark">Đăng xuất</button>
         </form>
