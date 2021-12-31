@@ -13,7 +13,9 @@
 ## BẢNG MỤC LỤC
 * [ Giới thiệu môn học](#gioithieumonhoc)
 * [ Giảng viên hướng dẫn](#giangvien)
+* [ Hướng dẫn cài đặt](#caidat)
 * [ Thành viên nhóm](#thanhvien)
+
 ## GIỚI THIỆU MÔN HỌC
 <a name="gioithieumonhoc"></a>
 * **Tên môn học**: Xây dựng HTTT trên các framework
@@ -25,6 +27,15 @@
 ## GIẢNG VIÊN HƯỚNG DẪN
 <a name="giangvien"></a>
 **Nguyễn Minh Nhựt** - *17520867@ms.uit.edu.vn*
+
+## HƯỚNG DẪN CÀI ĐẶT
+<a name="caidat"></a>
+-Clone project về máy.
+-Import Database vào SQLServer.
+-Mở thư mục framework_IS220.M11_15\WebMusic_Auth.
+-Chạy file "WebMusic_Auth.sln"
+
+
 
 ## THÀNH VIÊN NHÓM
 <a name="thanhvien"></a>
