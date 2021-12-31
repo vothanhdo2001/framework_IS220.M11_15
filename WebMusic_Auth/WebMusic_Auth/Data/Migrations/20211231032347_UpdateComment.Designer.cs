@@ -10,7 +10,7 @@ using WebMusic_Auth.Data;
 namespace WebMusic_Auth.Data.Migrations
 {
     [DbContext(typeof(MusicContext))]
-    [Migration("20211231031416_UpdateComment")]
+    [Migration("20211231032347_UpdateComment")]
     partial class UpdateComment
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
