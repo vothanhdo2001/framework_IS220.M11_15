@@ -10,8 +10,8 @@ using WebMusic_Auth.Data;
 namespace WebMusic_Auth.Data.Migrations
 {
     [DbContext(typeof(MusicContext))]
-    [Migration("20211231032347_UpdateComment")]
-    partial class UpdateComment
+    [Migration("20211231125119_UpdateSong")]
+    partial class UpdateSong
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -459,11 +459,6 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
-                    b.Property<string>("Duration")
-                        .HasColumnName("long")
-                        .HasColumnType("nvarchar(20)")
-                        .HasMaxLength(20);
-
                     b.Property<string>("Files")
                         .HasColumnType("nvarchar(500)")
                         .HasMaxLength(500);
@@ -471,9 +466,6 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<string>("Lyrics")
                         .HasColumnType("nvarchar(4000)")
                         .HasMaxLength(4000);
-
-                    b.Property<int>("Nviews")
-                        .HasColumnType("int");
 
                     b.Property<string>("Photo")
                         .HasColumnType("nvarchar(500)")
