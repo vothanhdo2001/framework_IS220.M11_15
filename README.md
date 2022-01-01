@@ -31,9 +31,10 @@
 ## HƯỚNG DẪN CÀI ĐẶT
 <a name="caidat"></a>
 * Clone project về máy.
-* Import Database vào SQLServer.
+* Import file backup của Database vào SQL Server.
 * Mở thư mục framework_IS220.M11_15\WebMusic_Auth.
 * Chạy file "WebMusic_Auth.sln"
+* Mở file appsettings.json sửa lại server cho phù hợp.
 
 
 
