@@ -1,4 +1,5 @@
 ﻿using App.Admin.Role;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -9,6 +10,7 @@ using WebMusic_Auth.Data;
 
 namespace WebMusic_Auth.Areas.Admin.Pages.Role
 {
+    [Authorize(Roles = "Admin")]
     public class AddModel : PageModel
     {
         private readonly RoleManager<IdentityRole> _roleManager;
