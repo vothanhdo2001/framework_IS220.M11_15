@@ -32,6 +32,8 @@
       "WebMusic_Auth/1.0.0": {
         "dependencies": {
           "MailKit": "3.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "3.1.21",
+          "Microsoft.AspNetCore.Authentication.Google": "3.1.21",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.21",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.21",
           "Microsoft.AspNetCore.Identity.UI": "3.1.21",
@@ -323,6 +325,28 @@
         },
         "compile": {
           "lib/netstandard2.1/MailKit.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.21": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "3.1.21.0",
+            "fileVersion": "3.100.2121.52309"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/3.1.21": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "3.1.21.0",
+            "fileVersion": "3.100.2121.52309"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.21": {
@@ -1506,11 +1530,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {
-        "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
-        }
-      },
+      "System.ComponentModel.Annotations/4.7.0": {},
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -3975,6 +3995,20 @@
       "sha512": "sha512-/az267eMAng48hSeIliTZeCJM3YTuG1MtSDuZ2JpidMhG+PME0oEKBBxRx1fykpyOAAsw23UyUvHgHXoOlU7wA==",
       "path": "mailkit/3.0.0",
       "hashPath": "mailkit.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QxjWjNGBXc47SqAixI+3Q5asxXsWMs7SJftHm/epBUKPi+rw4yVgnrQgCYOXUS/2FIahoYoBNhmsmStXZZVP8A==",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.21",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.3.1.21.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/3.1.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iVV8QrdZk8MEH/7zE72jOn+OsLQzAJ/17dI7jVWabKv11Y57vsvdhVbEbJOWPHTLSaWbp+CE/+nYxE6TQPpHpQ==",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.21",
+      "hashPath": "microsoft.aspnetcore.authentication.google.3.1.21.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.21": {
       "type": "package",

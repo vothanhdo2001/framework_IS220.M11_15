@@ -26,28 +26,40 @@
         <nav class="navbar">
             <ul class="menu">
                 <li class="is-active">
-                    <a href="">
+                    <a href="/">
                         <i class="bi bi-house-door-fill"></i>
                         <span>Trang Chủ</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/">
                         <i class="bi bi-person-lines-fill"></i>
                         <span>Cá Nhân</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/">
                         <i class="bi bi-grid"></i>
                         <span>Thể Loại</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/">
                         <i class="bi bi-bar-chart"></i>
                         <span>BXH</span>
                     </a>
+                </li>
+                <li>
+                    <button class="btn btn-primary" id="phat1">
+                        <i class="bi bi-bar-chart"></i>
+                        <span>Playlist 1</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary" id="phat2">
+                        <i class="bi bi-bar-chart"></i>
+                        <span>Playlist 2</span>
+                    </button>
                 </li>
             </ul>
         </nav>
@@ -72,10 +84,13 @@
             </button>
         </div>
         <div class="admin">
-            <button class="admin-btn">
+            <a href="/admin/">
+                <button class="admin-btn" >
                 <i class="bi bi-person-rolodex"></i>
                 <span>Quản Trị</span>
             </button>
+            </button>
+            </a>
         </div>
         <div class="userprofile">
             <partial name="_LoginPartial" />

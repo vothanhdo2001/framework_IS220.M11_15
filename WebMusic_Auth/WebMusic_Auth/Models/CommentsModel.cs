@@ -32,6 +32,7 @@ namespace WebMusic_Auth.Models
         [StringLength(10, ErrorMessage = "Too long!")]
         public string CoStatus { get => coStatus; set => coStatus = value; }
 
+
         [ForeignKey("UsId")]
         [Display(Name = "ID User")]
         public AppUser User { get; set; }

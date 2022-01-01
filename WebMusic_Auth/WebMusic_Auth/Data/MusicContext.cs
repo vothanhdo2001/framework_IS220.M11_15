@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebMusic_Auth.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 
 namespace WebMusic_Auth.Data
 {

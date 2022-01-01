@@ -1,0 +1,52 @@
+﻿@page "/admin/taikhoan/chan"
+@model WebMusic_Auth.Areas.Admin.Pages.ManagerUser.ChanModel
+@{
+    ViewData["Title"] = "Danh sách chặn";
+}
+
+<partial name="_StatusMessage" model="@Model.StatusMessage" />
+@{
+    if (Model.users.Count() != 0)
+    {
+        <table class="table table-striped">
+    <tr>
+        <th>UserName</th>
+        <th>Roles</th>
+    </tr>
+    @foreach (var user in @Model.users)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>
+                <form method="POST" class="d-inline">
+                <button type="submit"  name="Input.ID" value="@user.Id" class="btn btn-success btn-sm">Bỏ chặn</button>
+                </form>
+            </td>
+        </tr>
+        
+    }
+        </table>
+    }
+    else
+    {
+        <p>Không có thành viên nào bị chặn.</p>
+    }
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+@{
+
+    Func<int?,string> generateUrl = (int? _pagenumber)  => {
+        return Url.Page("./User", new {pageNumber = _pagenumber});
+    };
+
+    var datapaging = new {
+        currentPage = Model.pageNumber,
+        countPages  = Model.totalPages,
+        generateUrl =  generateUrl
+    };
+
+}
+<partial name="_Paging" model="@datapaging" />

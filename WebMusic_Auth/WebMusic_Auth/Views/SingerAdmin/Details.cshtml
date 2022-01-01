@@ -1,0 +1,36 @@
+﻿@model WebMusic_Auth.Models.SingerModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SingerModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SiName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SiName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Story)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Story)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SiId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
