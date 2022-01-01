@@ -41,7 +41,7 @@
 * Tên đăng nhập 1 :abc@abc.com - Mật khẩu: Abcd1234a@
 *  Tên đăng nhập 1 :19521365@gm.uit.edu.vn - Mật khẩu: Abcd1234a@
 * Tài khoản thường: Đăng ký truy cập vào mail để xác nhận.
-
+## (Lưu ý: Một số chức năng không hoạt động được trên Microsoft Edge)
 
 
 ## THÀNH VIÊN NHÓM
