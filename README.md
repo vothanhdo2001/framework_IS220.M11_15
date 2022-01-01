@@ -35,6 +35,9 @@
 * Mở thư mục framework_IS220.M11_15\WebMusic_Auth.
 * Chạy file "WebMusic_Auth.sln"
 * Mở file appsettings.json sửa lại server cho phù hợp.
+* Chạy project.
+* Tài khoản admin: Tên đăng nhập: - Mật khẩu: 
+* Tài khoản thường: Đăng ký truy cập vào mail để xác nhận.
 
 
 
