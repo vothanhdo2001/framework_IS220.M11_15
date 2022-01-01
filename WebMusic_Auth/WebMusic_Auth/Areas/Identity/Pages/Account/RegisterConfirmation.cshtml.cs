@@ -38,7 +38,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
             {
-                return NotFound($"Unable to load user with email '{email}'.");
+                return NotFound($"Không tìm th?y ng??i dùng có email là '{email}'.");
             }
 
             Email = email;

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -51,7 +51,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Nhớ mật khẩu")]
             public bool RememberMe { get; set; }
         }
 
@@ -83,7 +83,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    _logger.LogInformation("Đăng nhập thành công!");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

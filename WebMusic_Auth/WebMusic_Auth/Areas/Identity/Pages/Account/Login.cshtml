@@ -43,8 +43,8 @@
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Đăng ký</a>
                     </p>
                 </div>
+
             </form>
-            <hr />
             <div class="text-center">
                 <p>Đăng nhập bằng ?</p>
             <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
@@ -53,10 +53,10 @@
              <button type="submit" class="btn btn-primary" name="provider" value="Facebook" title="Log in using your Facebook account"><b>Facebook</b></button>
              </form>
             </div>
+
         </section>
     </div>
 </div>
-
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
