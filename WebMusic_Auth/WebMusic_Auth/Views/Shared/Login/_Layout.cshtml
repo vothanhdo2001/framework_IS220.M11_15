@@ -1,0 +1,208 @@
+﻿@* ------------------------------------- Homepage - Vi*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Music</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <link rel="stylesheet" href="~/css/SongDetailStyle.css">
+    <link rel="stylesheet" href="~/css/SingerDetailStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <div class="brand">
+                <button class="logo-btn">
+                    <div class="logo-img">
+                        <img class="logo-img1" src="~/images/Logo34.png" alt="Logo-Music">
+                    </div>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="is-active">
+                    <a href="/">
+                        <i class="bi bi-house-door-fill"></i>
+                        <span>Trang Chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="bi bi-person-lines-fill"></i>
+                        <span>Cá Nhân</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="bi bi-grid"></i>
+                        <span>Thể Loại</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="bi bi-bar-chart"></i>
+                        <span>BXH</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+        <hr class="divide-navbar">
+        <div class="createplaylist">
+            <button class="createplaylist-btn">
+                <i class="bi bi-plus-circle"></i>
+                <span>Tạo Playlist Mới</span>
+            </button>
+        </div>
+    </aside>
+
+    <!-- ---------------- -->
+    <div class="header">
+        <div class="formsearch">
+            <div class="search-input">
+                <input type="text" placeholder="Nhập tên bài hát, ca sĩ hoặc album..." class="search-input-text">
+            </div>
+            <button class="search-btn">
+                <i class="bi bi-search"></i>
+                <span>Tìm Kiếm</span>
+            </button>
+        </div>
+        <div class="admin">
+            <a href="/admin/">
+                <button class="admin-btn" >
+                <i class="bi bi-person-rolodex"></i>
+                <span>Quản Trị</span>
+            </button>
+            </button>
+            </a>
+        </div>
+        <div class="userprofile">
+            <partial name="_LoginPartial" />
+
+        </div>
+    </div>
+
+    <!-- ---------------- -->
+    <div style="text-align: center;" class="content">
+        <main role="main" class="pb-3 px-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="show-lyrics" id="show-lyrics">
+        <div class="lyric-content" id="lyric-content">
+            <p style="color: red;">Lời bài hát</p>
+            <p>Thương thì thương thế thôi</p>
+            <p>Biết bao đêm dài lòng anh ngóng chông</p>
+            <p>Ở nơi, phía xa xa đại dương</p>
+            <p>Trái đất vẫn xoay, vẫn xoay tròn hai người yêu nhau</p>
+            <p>Chờ mong đến một ngày thuộc về nhau</p>
+            <p>Anh vẫn đứng đây bên khung cửa sổ</p>
+            <p>Anh vẫn đứng đây chờ nắng lên</p>
+            <p>Còn em giờ đang nơi đâu</p>
+            <p>Có thấy thấy chăng mùa nắng đã ghé vai gầy</p>
+            <p>Người yêu hỡi anh nhớ tiếng em à ơi</p>
+            <p>Gió vẫn hát thành lời</p>
+            <p>Mặc kệ mây, mây bay về trời</p>
+            <p>Ở nơi ấy, gió lay buồn biết bao nhiêu</p>
+            <p>Những nỗi nhớ một thời</p>
+            <p>Người đi xa bên hiên sao không về đây?</p>
+            <p>Người yêu hỡi! Hãy quay về với anh</p>
+            <p>Bao ngày anh ngóng trông</p>
+            <p>Đã bao đêm rồi anh vẫn ngóng trông</p>
+            <p>Ở nơi ấy phía xa xa trùng mây</p>
+            <p>Bao lời anh hát lên</p>
+            <p>Trái tim anh dành trao đến em</p>
+            <p>Người yêu hỡi! Anh yêu riêng mình em thôi</p>
+            <p>Gió vẫn hát thành lời</p>
+            <p>Mặc kệ mây, mây bay về trời</p>
+            <p>Ở nơi ấy, gió lay buồn biết bao nhiêu</p>
+            <p>Những nỗi nhớ một thời</p>
+            <p>Người đi đi xa bên hiên sao không về đây?</p>
+            <p>Người yêu hỡi! Hãy quay về với anh</p>
+            <p>Ta-da-da-da hah-hah-hahh</p>
+            <p>Tình yêu ây anh vẫn chỉ dành trao</p>
+            <p>Riêng em mà thôi</p>
+            <p>Dù ngày mai bão giông ngập trời</p>
+            <p>Thì tình anh trao em mãi mãi</p>
+            <p>Người yêu hỡi! Anh chỉ yêu riêng mình em thôi</p>
+            <p>Gió vẫn hát thành lời</p>
+            <p>Mặc kệ mây, mây mây bay về trời</p>
+            <p>Ở nơi ấy, gió lay buồn biết bao nhiêu</p>
+            <p>Những nỗi nhớ một thời</p>
+            <p>Người đi xa bên hiên sao không về đây?</p>
+            <p>Người yêu hơi! Hãy quay về với anh</p>
+            <p>Người yêu hỡi! Hãy quay về với anh</p>
+        </div>
+
+    </div>
+
+    <div id="modal-add_to_playlist" class="modal-add_to_playlist">
+
+        <!-- Modal content -->
+        <div class="modal-addplaylist-content">
+            <span class="close-addplaylist" id="close-addplaylist">&times;</span>
+            <p class="text">Thêm vào playlist</p>
+            <button class="createplaylist_other">
+                <i class="bi bi-plus-circle"></i>
+                <span>Tạo playlist mới</span>
+            </button>
+            <div class="playlist-content">
+                <ul class="menu-playlist" id="menu-playlist">
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 1</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 2</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 3</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 4</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 5</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 6</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Playlist 7</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

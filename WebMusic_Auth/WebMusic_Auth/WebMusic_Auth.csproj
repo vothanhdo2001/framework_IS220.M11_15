@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Pages\ManagerMusic\" />
+    <Folder Include="wwwroot\images\img-avatar\" />
   </ItemGroup>
 
 </Project>

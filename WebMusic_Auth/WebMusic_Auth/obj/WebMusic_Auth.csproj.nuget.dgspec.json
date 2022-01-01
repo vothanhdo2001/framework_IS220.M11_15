@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {}
+    "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {}
   },
   "projects": {
-    "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {
+    "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+        "projectUniqueName": "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
         "projectName": "WebMusic_Auth",
-        "projectPath": "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+        "projectPath": "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
         "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
-        "outputPath": "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
+        "outputPath": "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",

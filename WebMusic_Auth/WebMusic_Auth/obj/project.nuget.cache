@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+ad9X3+LcDc/PDxqkNWhR6MDSodW32b4fLjegOfBVBG4EmknTmQyquA/KwhfBaU2GpMtfFkTCSWh/bzZ49eJA==",
+  "dgSpecHash": "1I4+Ubk8VQXJmyXi7GDTnPajZWk85m5NZMr9xtthrr+fWgoHVfRLPq0ittrPndqBntJaqhi1t8mePSg+fwcasA==",
   "success": true,
-  "projectFilePath": "D:\\Rac\\New folder (17)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
+  "projectFilePath": "D:\\Rac\\New folder (20)\\framework_IS220.M11_15\\WebMusic_Auth\\WebMusic_Auth\\WebMusic_Auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\votha\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.21\\microsoft.aspnetcore.authentication.facebook.3.1.21.nupkg.sha512",
