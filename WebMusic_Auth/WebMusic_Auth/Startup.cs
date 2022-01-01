@@ -31,6 +31,7 @@ namespace WebMusic_Auth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddOptions();                                         // Kích hoạt Options
             var mailsettings = Configuration.GetSection("MailSettings");  // đọc config
             services.Configure<MailSettings>(mailsettings);                // đăng ký để Inject
@@ -64,6 +65,27 @@ namespace WebMusic_Auth
             });
 
             services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
+            object p = services.AddAuthentication()
+                .AddGoogle(googleOptions =>
+            {
+                // Đọc thông tin Authentication:Google từ appsettings.json
+                IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
+                // Thiết lập ClientID và ClientSecret để truy cập API google
+                googleOptions.ClientId = googleAuthNSection["ClientId"];
+                googleOptions.ClientSecret = googleAuthNSection["ClientSecret"];
+                // Cấu hình Url callback lại từ Google (không thiết lập thì mặc định là /signin-google)
+                googleOptions.CallbackPath = "/signin-google";
+             })
+                .AddFacebook(facebookOptions => {
+                    // Đọc cấu hình
+                    IConfigurationSection facebookAuthNSection = Configuration.GetSection("Authentication:Facebook");
+                    facebookOptions.AppId = facebookAuthNSection["AppId"];
+                    facebookOptions.AppSecret = facebookAuthNSection["AppSecret"];
+                    // Thiết lập đường dẫn Facebook chuyển hướng đến
+                    facebookOptions.CallbackPath = "/signin-facebook";
+                })
+             ;
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

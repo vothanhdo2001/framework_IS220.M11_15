@@ -278,3 +278,5 @@ D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\De
 D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\SongAdmin\_StatusMessage.cshtml.g.cs
 D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\SongAdmin\_ViewImports.cshtml.g.cs
 D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\SongAdmin\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Rac\New folder (17)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
