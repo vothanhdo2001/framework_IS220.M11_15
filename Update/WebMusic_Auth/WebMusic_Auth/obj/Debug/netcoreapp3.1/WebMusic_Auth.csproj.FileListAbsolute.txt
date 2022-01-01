@@ -1,0 +1,660 @@
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\libman.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.StaticWebAssets.xml
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.exe
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.deps.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.dev.json
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.AssemblyReference.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfoInputs.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfo.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CoreCompileInputs.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.Manifest.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.xml
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.input.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.output.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorCoreGenerate.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Add.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\AddUserRole.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Delete.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\User.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\AlbumDetail\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Album\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Playlist\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Ranking\Index.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Paging.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cache
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cs
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CopyComplete
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\Rac\New folder (9)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.genruntimeconfig.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\libman.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.StaticWebAssets.xml
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.exe
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.deps.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.dev.json
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfoInputs.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfo.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CoreCompileInputs.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.Manifest.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.xml
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.input.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.output.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorCoreGenerate.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Add.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\AddUserRole.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Delete.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\User.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\AlbumDetail\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Album\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Playlist\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Ranking\Index.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Paging.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cs
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CopyComplete
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.genruntimeconfig.cache
+D:\Rac\New folder (10)\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.AssemblyReference.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\appsettings.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\libman.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.StaticWebAssets.xml
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.exe
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.deps.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.runtimeconfig.dev.json
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.AssemblyReference.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfoInputs.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.AssemblyInfo.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CoreCompileInputs.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.MvcApplicationPartsAssemblyInfo.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorAssemblyInfo.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.Manifest.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\staticwebassets\WebMusic_Auth.StaticWebAssets.xml
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.input.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.TagHelpers.output.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorCoreGenerate.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Add.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\AddUserRole.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Delete.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\User.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_StatusMessage.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewImports.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Role\_ViewStart.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\AlbumDetail\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Album\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Playlist\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Ranking\Index.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Paging.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.RazorTargetAssemblyInfo.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.Views.pdb
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.csproj.CopyComplete
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.dll
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.pdb
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.genruntimeconfig.cache
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Individual\Playlist.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Individual\Listened.cshtml.g.cs
+D:\MusicFramework\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\Individual\Love.cshtml.g.cs

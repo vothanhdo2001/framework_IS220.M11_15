@@ -1,0 +1,123 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Listened";
+}
+<body>
+    <section class="pt-5 pl-5">
+        <div class="container px-xl-0">
+            <!-- Page Features-->
+            <div class="row gx-xl-0 justify-content-center">
+                <div class="col-lg-4 col-xl-4 ml-0 text-center">
+                    <img id="avatar" src="../../images/c2.jpg" alt="Photo" width="40%">
+                </div>
+            </div>
+            <div class="row gx-xl-0 justify-content-center">
+                <div class="col-lg-8  col-xl-8 mt-3 text-center">
+                    <h2>tên user</h2>
+                </div>
+            </div>
+            <div class="row gx-xl-3 justify-content-center mt-5">
+                <div class="col-lg-2 text-center">
+                    <a href="/Individual/Playlist"><button class="btn btn-success">Playlist của tôi</button></a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="/Individual/Listened"><button class="btn btn-success">Đã nghe</button></a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <button class="btn btn-success">Yêu thích</button>
+                </div>
+            </div>
+
+            <div class="row gx-xl-3 justify-content-center mt-5">
+                <div class="col-lg-8 col-xl-8 mb-5 text-center">
+                    <div class="card border-left-info shadow h-100 py-0">
+                        <div class="card-body text-center p-4 p-lg-0 pt-0 pt-lg-4">
+                            <div class="table-responsive">
+                                <table class="table table-hover text-left">
+                                    <tbody id="table_1">
+                                        <tr>
+                                            <td class="Anh">
+                                                <img class="avatar_table" src="../../images/avata.jpg" alt="BH">
+                                            </td>
+                                            <td class="name">
+                                                <dl>
+                                                    <dt>BH 1</dt>
+                                                    <dd class="TacGia">Nguyễn Văn Quyết</dd>
+                                                </dl>
+
+                                            </td>
+                                            <td>
+
+                                                <span id="Control1">
+                                                    <Button onclick="Play(1)" class="btn btn-primary"><i class="bi bi-play"></i></Button>
+                                                </span>
+
+
+                                            </td>
+                                            <td>
+                                                <Button class="btn btn-danger">Xoá</Button>
+
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="Anh">
+                                                <img class="avatar_table" src="../../images/avata.jpg" alt="BH">
+                                            </td>
+                                            <td class="name">
+                                                <dl>
+                                                    <dt>BH 1</dt>
+                                                    <dd class="TacGia">Nguyễn Văn Quyết</dd>
+                                                </dl>
+
+                                            </td>
+                                            <td>
+
+                                                <span id="Control2">
+                                                    <Button onclick="Play(2)" class="btn btn-primary"><i class="bi bi-play"></i></Button>
+                                                </span>
+
+                                            </td>
+                                            <td>
+                                                <Button class="btn btn-danger">Xoá</Button>
+
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="Anh">
+                                                <img class="avatar_table" src="../../images/avata.jpg" alt="BH">
+                                            </td>
+                                            <td class="name">
+                                                <dl>
+                                                    <dt>BH 1</dt>
+                                                    <dd class="TacGia">Nguyễn Văn Quyết</dd>
+                                                </dl>
+
+                                            </td>
+                                            <td>
+
+                                                <span id="Control3">
+                                                    <Button onclick="Play(3)" class="btn btn-primary"><i class="bi bi-play"></i></Button>
+                                                </span>
+
+                                            </td>
+                                            <td>
+                                                <Button class="btn btn-danger">Xoá</Button>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>

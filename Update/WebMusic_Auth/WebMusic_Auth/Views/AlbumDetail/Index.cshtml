@@ -1,0 +1,85 @@
+﻿@model IEnumerable<WebMusic_Auth.Models.AlbumDetailModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Album)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album.AId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+<body>
+<div class="browse">
+									<div class="browse-inner">
+									<div class="artist-grid">
+										<a  href="single.html"><img src="images/a3.jpg" title="allbum-name"></a>
+										 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Perfect</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a6.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Hello</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a7.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Hãy Trao Cho Anh</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a4.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Em Gái Mưa</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a5.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">Merry Christmas</a>
+										</div>
+										<div class="artist-grid">
+											<a  href="single.html"><img src="images/a1.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+											<a class="art" href="single.html">Happy New Year</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a2.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+												<a class="art" href="single.html">I'm The One</a>
+										</div>
+									<div class="artist-grid">
+											<a  href="single.html"><img src="images/a8.jpg" title="allbum-name"></a>
+											 <a href="single.html"><i class="glyphicon glyphicon-play-circle"></i></a>
+											<a class="art" href="single.html">Sorry</a>
+										</div>
+									</div>
+			
+						 	 <!-- /agileinfo -->
+</div>					  
+<script src="~/js/scripts.js"></script>
+</body>
