@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +16,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
+        public static System.Text.Encoding UTF8 { get; }
 
         public LogoutModel(SignInManager<AppUser> signInManager, ILogger<LogoutModel> logger)
         {
@@ -30,7 +31,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
             await _signInManager.SignOutAsync();
-            _logger.LogInformation("User logged out.");
+            _logger.LogInformation("Đăng xuất thành công!");
             if (returnUrl != null)
             {
                 return LocalRedirect(returnUrl);

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -19,6 +19,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IEmailSender _emailSender;
+        public static System.Text.Encoding UTF8 { get; }
 
         public EmailModel(
             UserManager<AppUser> userManager,
@@ -46,7 +47,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
         {
             [Required]
             [EmailAddress]
-            [Display(Name = "New email")]
+            [Display(Name = "Email mới")]
             public string NewEmail { get; set; }
         }
 
@@ -68,7 +69,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                return NotFound($"Không tìm thấy người dùng '{_userManager.GetUserId(User)}'.");
             }
 
             await LoadAsync(user);
@@ -80,7 +81,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                return NotFound($"Không tìm thấy người dùng '{_userManager.GetUserId(User)}'.");
             }
 
             if (!ModelState.IsValid)
@@ -101,14 +102,14 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
                     protocol: Request.Scheme);
                 await _emailSender.SendEmailAsync(
                     Input.NewEmail,
-                    "Confirm your email",
-                    $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    "Xác thực email",
+                    $"<a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>Nhấp vào đây</a> để xác thực email.");
 
-                StatusMessage = "Confirmation link to change email sent. Please check your email.";
+                StatusMessage = "Link xác thực đã được gửi đến email của bạn. Vui lòng kiểm tra hộp thư.";
                 return RedirectToPage();
             }
 
-            StatusMessage = "Your email is unchanged.";
+            StatusMessage = "Email của bạn không thay đổi.";
             return RedirectToPage();
         }
 
@@ -117,7 +118,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                return NotFound($"Không tìm thấy người dùng '{_userManager.GetUserId(User)}'.");
             }
 
             if (!ModelState.IsValid)
@@ -137,10 +138,10 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
                 protocol: Request.Scheme);
             await _emailSender.SendEmailAsync(
                 email,
-                "Confirm your email",
-                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                "Xác thực email",
+                $"<a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>Nhấp vào đây</a> để xác thực email");
 
-            StatusMessage = "Verification email sent. Please check your email.";
+            StatusMessage = "Link xác thực đã được gửi đến email của bạn. Vui lòng kiểm tra hộp thư.";
             return RedirectToPage();
         }
     }

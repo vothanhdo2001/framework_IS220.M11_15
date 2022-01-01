@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Encodings.Web;
@@ -19,6 +19,8 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IEmailSender _emailSender;
+
+        public static System.Text.Encoding UTF8 { get; }
 
         public ForgotPasswordModel(UserManager<AppUser> userManager, IEmailSender emailSender)
         {
@@ -59,8 +61,8 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
 
                 await _emailSender.SendEmailAsync(
                     Input.Email,
-                    "Reset Password",
-                    $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    "Lấy lại mật khẩu",
+                    $"<a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>Nhấp vào đây</a> để lấy lại mật khẩu");
 
                 return RedirectToPage("./ForgotPasswordConfirmation");
             }

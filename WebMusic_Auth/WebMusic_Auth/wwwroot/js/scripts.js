@@ -485,7 +485,7 @@ $(document).ready(function () {
 
 
     //////////////////////
-    $('#phat2').click(function () {
+    $('#phat111').click(function () {
         $.ajax({
             type: "post",
             url: "MusicPlayer/GetPlaylistDetail",
@@ -503,7 +503,7 @@ $(document).ready(function () {
     });
 
     ///////////////////////////////////////////////////////////////////////////////
-    $('#phat1').click(function () {
+    $('#phat222').click(function () {
         $.ajax({
             type: "post",
             url: "MusicPlayer/GetPlaylistDetail",

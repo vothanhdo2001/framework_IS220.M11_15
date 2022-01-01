@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c593f0d5-b78b-4f76-aac0-01ef53a3d68a": {
+      "ProjectGuid": "c593f0d5-b78b-4f76-aac0-01ef53a3d68a",
+      "DisplayName": "WebMusic_Auth",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,14 +38,14 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{userId}'.");
+                return NotFound($"Không tìm thấy người dùng '{userId}'.");
             }
 
             code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code));
             var result = await _userManager.ChangeEmailAsync(user, email, code);
             if (!result.Succeeded)
             {
-                StatusMessage = "Error changing email.";
+                StatusMessage = "Lỗi không đổi được email.";
                 return Page();
             }
 
@@ -54,12 +54,12 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account
             var setUserNameResult = await _userManager.SetUserNameAsync(user, email);
             if (!setUserNameResult.Succeeded)
             {
-                StatusMessage = "Error changing user name.";
+                StatusMessage = "Lỗi không đổi được tên tài khoản.";
                 return Page();
             }
 
             await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Thank you for confirming your email change.";
+            StatusMessage = "Xác thực tài khoản thành công!";
             return Page();
         }
     }

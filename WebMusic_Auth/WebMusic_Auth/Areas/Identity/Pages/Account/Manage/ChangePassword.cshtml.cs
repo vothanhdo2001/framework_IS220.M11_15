@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -16,6 +16,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ILogger<ChangePasswordModel> _logger;
+        public static System.Text.Encoding UTF8 { get; }
 
         public ChangePasswordModel(
             UserManager<AppUser> userManager,
@@ -37,18 +38,18 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
         {
             [Required]
             [DataType(DataType.Password)]
-            [Display(Name = "Current password")]
+            [Display(Name = "Mật khẩu hiện tại")]
             public string OldPassword { get; set; }
 
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "Độ dài {0} cần tối thiểu {2} và tối đa {1} ký tự.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "New password")]
+            [Display(Name = "Mật khẩu mới")]
             public string NewPassword { get; set; }
 
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm new password")]
-            [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
+            [Display(Name = "Xác nhận mật khẩu mới")]
+            [Compare("NewPassword", ErrorMessage = "Xác nhận mật khẩu chưa chính xác!")]
             public string ConfirmPassword { get; set; }
         }
 
@@ -57,7 +58,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                return NotFound($"Không tìm thấy người dùng '{_userManager.GetUserId(User)}'.");
             }
 
             var hasPassword = await _userManager.HasPasswordAsync(user);
@@ -79,7 +80,7 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                return NotFound($"Không tìm thấy người dùng '{_userManager.GetUserId(User)}'.");
             }
 
             var changePasswordResult = await _userManager.ChangePasswordAsync(user, Input.OldPassword, Input.NewPassword);
@@ -93,8 +94,8 @@ namespace WebMusic_Auth.Areas.Identity.Pages.Account.Manage
             }
 
             await _signInManager.RefreshSignInAsync(user);
-            _logger.LogInformation("User changed their password successfully.");
-            StatusMessage = "Your password has been changed.";
+            _logger.LogInformation("Đổi mật khẩu thành công!");
+            StatusMessage = "Đổi mật khẩu thành công!";
 
             return RedirectToPage();
         }
