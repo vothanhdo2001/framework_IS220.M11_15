@@ -31,12 +31,15 @@
 ## HƯỚNG DẪN CÀI ĐẶT
 <a name="caidat"></a>
 * Clone project về máy.
+* Lấy Database tại /framework_is220.m11_15/DatabaseDiagram/ (Cấp full quyền cho thư mục "DatabaseDiagram"  để import được)
 * Import file backup của Database vào SQL Server.
 * Mở thư mục framework_IS220.M11_15\WebMusic_Auth.
 * Chạy file "WebMusic_Auth.sln"
 * Mở file appsettings.json sửa lại server cho phù hợp.
 * Chạy project.
-* Tài khoản admin: Tên đăng nhập: - Mật khẩu: 
+* Tài khoản admin: 
+* Tên đăng nhập 1 :abc@abc.com - Mật khẩu: Abcd1234a@
+*  Tên đăng nhập 1 :19521365@gm.uit.edu.vn - Mật khẩu: Abcd1234a@
 * Tài khoản thường: Đăng ký truy cập vào mail để xác nhận.
 
 
