@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
@@ -15,13 +16,24 @@ namespace WebMusic_Auth.Controllers
 {
     public class MusicPlayerController : Controller
     {
+        private readonly UserManager<AppUser> _userManager;
+        
         SqlConnection conn;
-        public MusicPlayerController()
+/*        public MusicPlayerController()
         {
             var configuaration = GetConfiguration();
             conn = new SqlConnection(configuaration.GetSection("ConnectionStrings").GetSection("DefaultConnection").Value);
+        }*/
+        public MusicPlayerController(UserManager<AppUser> userManager)
+        {
+            _userManager = userManager;
+            var configuaration = GetConfiguration();
+            conn = new SqlConnection(configuaration.GetSection("ConnectionStrings").GetSection("DefaultConnection").Value);
         }
-
+        public string getUserIdLoggedIn()
+        {
+            return _userManager.GetUserId(HttpContext.User);
+        }
         public IConfigurationRoot GetConfiguration()
         {
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
@@ -67,7 +79,7 @@ namespace WebMusic_Auth.Controllers
             }
             return list;
         }
-        [HttpGet]
+        [HttpPost]
         public JsonResult GetPlaylistDetail(int PId)
         {
 
@@ -96,7 +108,7 @@ namespace WebMusic_Auth.Controllers
                         list.Add(new
                         {
                             CoId = Convert.ToInt32(reader["CoId"]),
-                            UsId = Convert.ToInt32(reader["UsId"]),
+                            UsId = reader["UsId"],
                             NickName = reader["NickName"].ToString(),
                             Content = reader["Content"].ToString(),
                             Photo = reader["Photo"].ToString()
@@ -108,7 +120,7 @@ namespace WebMusic_Auth.Controllers
             }
             return list;
         }
-        [HttpPost]
+        [HttpGet]
         public JsonResult GetCommentsSong(int MId)
         {
             var data = sqlGetCommentsSong(MId);
@@ -141,9 +153,10 @@ namespace WebMusic_Auth.Controllers
             }
             return list;
         }
-        [HttpPost]
-        public JsonResult GetPlaylists(string UsId)
+        [HttpGet]
+        public JsonResult GetPlaylists()
         {
+            string UsId = getUserIdLoggedIn();
             //MusicContext context = HttpContext.RequestServices.GetService(typeof(WebMusic_Auth.Data.MusicContext)) as MusicContext
             var data = sqlGetPlaylists(UsId);
             return Json(data);
@@ -151,8 +164,9 @@ namespace WebMusic_Auth.Controllers
 
 
         [HttpPost]
-        public void AddCommentSong(string UsId, int MId, string Content)
+        public void AddCommentSong(int MId, string Content)
         {
+            string UsId = getUserIdLoggedIn();
             using (conn)
             {
                 conn.Open();
@@ -171,8 +185,9 @@ namespace WebMusic_Auth.Controllers
         }
 
         [HttpPost]
-        public void AddLoveSong(string UsId, int MId)
+        public void AddLoveSong(int MId)
         {
+            string UsId = getUserIdLoggedIn();
             using (conn)
             {
                 conn.Open();
@@ -190,8 +205,9 @@ namespace WebMusic_Auth.Controllers
         }
 
         [HttpPost]
-        public void RemoveLoveSong(string UsId, int MId)
+        public void RemoveLoveSong(int MId)
         {
+            string UsId = getUserIdLoggedIn();
             using (conn)
             {
                 conn.Open();
@@ -205,6 +221,35 @@ namespace WebMusic_Auth.Controllers
                     Console.Write("Delete sucessed");
                 }
                 conn.Close();
+            }
+        }
+        public bool GetStatusLoveSong(int MId)
+        {
+            string UsId = getUserIdLoggedIn();
+            using (conn)
+            {
+                conn.Open();
+                string query = "Select * From loveDetail Where UsId = @UsId and MId = @MId";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("UsId", UsId);
+                cmd.Parameters.AddWithValue("MId", MId);
+                using (var reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        reader.Close();
+                        conn.Close();
+                        return true;
+                    }
+                    else
+                    {
+                        reader.Close();
+                        conn.Close();
+                        return false;
+                    }
+                    
+                }
+                
             }
         }
 
@@ -247,5 +292,67 @@ namespace WebMusic_Auth.Controllers
         }
 
 
+
+        public ActionResult SongDetail(int MId)
+        {
+            using (conn)
+            {
+                conn.Open();
+                string query = "Select * From song join categoryDetail on song.MId = categoryDetail.MId " +
+                               "join songDetail on songDetail.MId = song.MId " +
+                               "join singer on singer.SiId = songDetail.SiId " +
+                               "join category on categoryDetail.CaId = category.CaId Where song.MId = @MId";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("MId", MId);
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        ViewBag.Song = reader["Song"].ToString();
+                        ViewBag.Nviews = Convert.ToInt32(reader["Nviews"]);
+                        ViewBag.Photo = reader["Photo"].ToString();
+                        ViewBag.CaName = reader["CaName"].ToString();
+                        ViewBag.SiName = reader["SiName"].ToString();
+                    }
+                    reader.Close();
+
+                }
+                conn.Close();
+
+            }
+            return View();
+        }
+
+        public ActionResult SingerDetail(int SiId)
+        {
+            List<SongModel> songs = new List<SongModel>();
+            using (conn)
+            {
+                conn.Open();
+                string query = "Select SiName, singer.Photo, song.Photo, Story, Song, song.MId From singer join songDetail on songDetail.SiId = singer.SiId " +
+                               "join song on song.MId = songDetail.MId Where singer.SiId = @SiId";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("SiId", SiId);
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        ViewBag.SiName = reader.GetString(0);
+                        ViewBag.SiPhoto = reader.GetString(1);
+                        ViewBag.Story = reader.GetString(3);
+                        songs.Add(new SongModel() {
+                            Song = reader.GetString(4),
+                            Photo = reader.GetString(2),
+                            MId = reader.GetInt32(5)
+                        });
+                    }
+                    reader.Close();
+
+                }
+                conn.Close();
+
+            }
+            return View(songs);
+        }
     }
 }

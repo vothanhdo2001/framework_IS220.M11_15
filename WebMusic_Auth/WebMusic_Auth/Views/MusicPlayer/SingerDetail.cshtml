@@ -1,0 +1,35 @@
+﻿@model List<SongModel>
+<div class="singer-detail">
+    <div class="info-singer">
+        <div>
+            <img src="@ViewBag.SiPhoto" alt="img-singer">
+            <h1>@ViewBag.SiName</h1>
+        </div>
+        <p>@ViewBag.Story</p>
+    </div>
+    <div class="listsong-singer">
+        @foreach (var item in Model)
+        {
+            <div>
+                <button>
+                    <img src="@item.Photo" alt="img-song">
+                </button>
+                <a href="">@item.Song</a>
+            </div>
+        }
+
+@*        <div>
+            <button>
+                <img src="/images/img-music/ChungTaCuaHienTai-SonTung.jpg" alt="img-song">
+            </button>
+            <a href="">Chúng Ta Của Hiện Tại</a>
+        </div>
+        <div>
+            <button>
+                <img src="/images/img-music/ChungTaCuaHienTai-SonTung.jpg" alt="img-song">
+            </button>
+            <a href="">Chúng Ta Của Hiện Tại</a>
+        </div>*@
+
+    </div>
+</div>

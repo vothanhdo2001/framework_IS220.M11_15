@@ -248,13 +248,7 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("ADate")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("AName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("AStatus")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Intro")
@@ -263,15 +257,7 @@ namespace WebMusic_Auth.Data.Migrations
                     b.Property<string>("Photo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UsId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("AId");
-
-                    b.HasIndex("UsId");
 
                     b.ToTable("album");
                 });
@@ -457,11 +443,6 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
-                    b.Property<string>("Duration")
-                        .HasColumnName("long")
-                        .HasColumnType("nvarchar(20)")
-                        .HasMaxLength(20);
-
                     b.Property<string>("Files")
                         .HasColumnType("nvarchar(500)")
                         .HasMaxLength(500);
@@ -578,13 +559,6 @@ namespace WebMusic_Auth.Data.Migrations
                         .HasForeignKey("SiId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("WebMusic_Auth.Models.AlbumModel", b =>
-                {
-                    b.HasOne("WebMusic_Auth.Models.AppUser", "User")
-                        .WithMany("AlbumModels")
-                        .HasForeignKey("UsId");
                 });
 
             modelBuilder.Entity("WebMusic_Auth.Models.CategoryDetailModel", b =>

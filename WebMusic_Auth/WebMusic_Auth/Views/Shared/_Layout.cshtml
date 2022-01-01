@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="~/css/style.css">
     <link rel="stylesheet" href="~/css/font-awesome.css">
     <link rel="stylesheet" href="~/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="~/css/SongDetailStyle.css">
+    <link rel="stylesheet" href="~/css/SingerDetailStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <aside class="sidebar">
@@ -88,7 +90,7 @@
         </main>
     </div>
     <div class="show-lyrics" id="show-lyrics">
-        <div class="lyric-content">
+        <div class="lyric-content" id="lyric-content">
             <p style="color: red;">Lời bài hát</p>
             <p>Thương thì thương thế thôi</p>
             <p>Biết bao đêm dài lòng anh ngóng chông</p>
@@ -146,7 +148,7 @@
                 <span>Tạo playlist mới</span>
             </button>
             <div class="playlist-content">
-                <ul class="menu-playlist">
+                <ul class="menu-playlist" id="menu-playlist">
                     <li>
                         <button>
                             <i class="bi bi-music-note-list"></i>
@@ -231,9 +233,9 @@
                     <img src="~/images/GioVanHat-imgSong.jpg" alt="" class="baihat-img active-CD" id="CD-Song">
                 </a>
             </div>
-            <div class="media-content">
-                <a href=""><h3 class="song-info">Gió Vẫn Hát</h3></a>
-                <a href=""><span class="singer-info">Hương Ly</span></a>
+            <div class="media-content" id="media-content">
+                <a id="song-info-a" href=""><h3 class="song-info">Gió Vẫn Hát</h3></a>
+                <a id="singer-info-a" href=""><span class="singer-info">Hương Ly</span></a>
 
             </div>
             <div class="media-right">
@@ -256,13 +258,13 @@
                 <button class="shuffle-btn" id="shuffle-btn">
                     <i class="bi bi-shuffle" id="shuffle-i"></i>
                 </button>
-                <button class="pre-btn">
+                <button class="pre-btn" id="pre-btn">
                     <i class="bi bi-skip-start-fill"></i>
                 </button>
-                <button class="play-btn">
+                <button class="play-btn" id="play-btn">
                     <i class="bi bi-play-circle" id="playmusic-btn"></i>
                 </button>
-                <button class="next-btn">
+                <button class="next-btn" id="next-btn">
                     <i class="bi bi-skip-end-fill"></i>
                 </button>
                 <button class="repeat-btn" id="repeat-btn">
@@ -298,7 +300,7 @@
                 <div class="title">
                     <span>Danh sách phát</span>
                 </div>
-                <div class="list_of_playlist">
+                <div class="list_of_playlist" id="list_of_playlist">
                     <div class="song_of_playlist">
                         <button class="playsong-playlist">
                             <img src="~/images/EmLaConThuyenCoDon-ImgSong.jpg" alt="baihat">

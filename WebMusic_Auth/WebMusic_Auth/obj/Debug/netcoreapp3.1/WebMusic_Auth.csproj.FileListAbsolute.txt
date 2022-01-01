@@ -437,3 +437,5 @@ D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS2
 D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.dll
 D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.pdb
 D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\WebMusic_Auth.genruntimeconfig.cache
+D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\MusicPlayer\SongDetail.cshtml.g.cs
+D:\Đồ Án Môn Học\Xây dựng HTTT trên các framework\new2\framework_IS220.M11_15\WebMusic_Auth\WebMusic_Auth\obj\Debug\netcoreapp3.1\Razor\Views\MusicPlayer\SingerDetail.cshtml.g.cs

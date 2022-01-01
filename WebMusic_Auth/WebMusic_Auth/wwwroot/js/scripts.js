@@ -154,7 +154,8 @@ var stateExpandPlaylists = false;
 var isVolume = $('#volume-sliderbar').val();
 var statefavoriteSong = false;
 var stateCommentSong = false;
-var numberOfComments = 2;
+var numberOfComments = 0;
+var data;
 
 $(document).ready(function () {
     var myAudio = new Audio('audio/Gio-Van-Hat-Huong-Ly.mp3');
@@ -265,6 +266,26 @@ $(document).ready(function () {
 
     //event click button add playlist
     $('#addtoplaylist-btn').click(function () {
+        $.ajax({
+            type: "get",
+            url: "MusicPlayer/GetPlaylists",
+            data: "",
+            dataType: "json",
+            success: function (data) {
+                console.log("abc");
+                $('#menu-playlist').empty();
+                $(data).each(function (key, value) {
+                    let appendPlaylists = '<li>' +
+                                            '<button data-PId="'+value.pId+'">' +
+                                                '<i class="bi bi-music-note-list"></i>' +
+                                                '<span>'+value.pName+'</span>' +
+                                            '</button>' +
+                                           '</li >';
+                    $('#menu-playlist').append(appendPlaylists);
+                });
+                $('.playlist-content').append("<script src='/js/AddToPlaylistScript.js'></script>");
+            }
+        });
         $('#modal-add_to_playlist').show();
     });
     $('#close-addplaylist').click(function () {
@@ -275,6 +296,8 @@ $(document).ready(function () {
             $('#modal-add_to_playlist').hide();
         }
     });
+
+    
 
     //set time of song
     var timeOfSong
@@ -329,24 +352,239 @@ $(document).ready(function () {
         myAudio.currentTime = time;
     });
 
+
+    ///////////////////////////////////////////////////////////////////////////////
+    function LoadMusic(data) {
+        currentSong = 0;
+        function changeSongPlay(current) {
+            myAudio.pause();
+            myAudio.src = data[current]["files"];
+            if ($('#playmusic-btn').hasClass("bi-play-circle")) {
+                $('#CD-Song').css("animation-play-state", "running");
+                $('#playmusic-btn').removeClass("bi-play-circle").addClass("bi-pause-circle");
+                myAudio.pause();
+            }
+            myAudio.play();
+            $('#CD-Song').attr("src", data[current]["photo"]);
+            $('.media-content h3').text(data[current]["song"]);
+            $('.media-content span').text(data[current]["siName"]);
+            $('#lyric-content').empty();
+            let lyricsSong = '<p style="color: red;">Lời bài hát</p>' +
+                '<p>' + data[current]["lyrics"] + '</p>';
+            $('#lyric-content').append(lyricsSong);
+            $('#media-content').data("MId", data[current]["mId"]);
+            
+            let MId = $('#media-content').data('MId');
+            let hrefSong = "/MusicPlayer/SongDetail?MId=" + MId;
+            let hrefSinger = "/MusicPlayer/SongDetail?SiId=" + data[current]["siId"];
+            $('#media-content #song-info-a').attr("href", hrefSong);
+            $('#media-content #singer-info-a').attr("href", hrefSinger);
+            $.ajax({
+                type: "get",
+                url: "MusicPlayer/GetStatusLoveSong",
+                data: {MId: MId},
+                success: function (response) {
+                    let favoriteSong = $('#favorite-song-i');
+                    if (response) {
+                        statefavoriteSong = true;
+                        favoriteSong.removeClass("bi-heart").addClass("bi-heart-fill");
+                    } else {
+                        statefavoriteSong = false;
+                        favoriteSong.removeClass("bi-heart-fill").addClass("bi-heart");
+                    }
+                }
+            });
+        }
+        changeSongPlay(currentSong);
+        //function set total time of song
+        function loadTimeOfSong() {
+            myAudio.onloadeddata = function () {
+                timeOfSong = Math.floor(myAudio.duration);
+                $('#song-time').text(convertNumberToTime(timeOfSong));
+            };
+        }
+        /*currentSong = 0;*/
+        $('#list_of_playlist').empty();
+        $(data).each(function (key, value) {
+            let appendPlaylistDetail = '<div class="song_of_playlist">' +
+                '<button class="playsong-playlist">' +
+                '<img src="' + value.photo + '" alt="baihat">' +
+                '</button>' +
+                '<div class="info_song-playlist">' +
+                '<span class="song-name-playlist">' + value.song + '</span>' +
+                '<span class="singer-name-playlist">' + value.siName + '</span>' +
+                '</div>' +
+                '</div>';
+            $('#list_of_playlist').append(appendPlaylistDetail);
+        });
+        $('#list_of_song button').click(function () {
+            $(".song_of_playlist").removeClass("active-song_of_playlist");
+            $(this).closest(".song_of_playlist").addClass("active-song_of_playlist");
+
+        });
+        myAudio.ontimeupdate = function () {
+            let numberOfSeconds = Math.round(myAudio.currentTime);
+            let time = convertNumberToTime(numberOfSeconds);
+            $('#current-time').text(time);
+            $('#time-sliderbar').val(convertTimeToValueRange(myAudio.currentTime));
+            // console.log($('#time-sliderbar').val());
+            if ($('#time-sliderbar').val() == 1000) {
+                myAudio.pause();
+                $('#playmusic-btn').removeClass("bi-pause-circle").addClass("bi-play-circle");
+                if (isRepeat) {
+                    myAudio.play();
+                    myAudio.currentTime = 0;
+                    $('#playmusic-btn').removeClass("bi-play-circle").addClass("bi-pause-circle");
+                } else {
+                    if (isRandom) {
+                        currentSong = Math.floor((Math.random() * data.length));
+                    } else {
+                        if (currentSong >= data.length - 1) {
+                            currentSong = 0;
+                        } else {
+                            currentSong++;
+                        }
+                    }
+                    changeSongPlay(currentSong);
+                    loadTimeOfSong();
+                }
+            }
+        };
+
+        //event click button next song
+        $('#next-btn').click(function () {
+            if (isRandom) {
+                currentSong = Math.floor((Math.random() * data.length));
+            } else {
+                if (currentSong >= data.length - 1) {
+                    currentSong = 0;
+                } else {
+                    currentSong++;
+                }
+            }
+            changeSongPlay(currentSong);
+            loadTimeOfSong();
+        });
+
+        //event click button previous song
+        $('#pre-btn').click(function () {
+            if (isRandom) {
+                currentSong = Math.floor((Math.random() * data.length));
+            } else {
+                if (currentSong <= 0) {
+                    currentSong = data.length - 1;
+                } else {
+                    currentSong--;
+                }
+            }
+            changeSongPlay(currentSong);
+            loadTimeOfSong();
+        });
+    }
+
+
+
+    //////////////////////
+    $('.search-btn').click(function () {
+        $.ajax({
+            type: "post",
+            url: "MusicPlayer/GetPlaylistDetail",
+            data: { PId: 1002},
+            dataType: "json",
+            success: function (response) {
+                if (data) {
+                    data = undefined;
+                }
+                data = response;
+                console.log(data);
+                LoadMusic(data);
+            }
+        });
+    });
+
+    ///////////////////////////////////////////////////////////////////////////////
+    $('.admin-btn').click(function () {
+        $.ajax({
+            type: "post",
+            url: "MusicPlayer/GetPlaylistDetail",
+            data: { PId: 1004 },
+            dataType: "json",
+            success: function (response) {
+                if (data) {
+                    data = undefined;
+                }
+                data = response;
+                console.log(data);
+                /*currentSong = 0;*/
+                LoadMusic(data);
+            }
+        });
+    });
+
+
+
+
+
     //event click on favorite song button
     $('#favorite-song').click(function () {
         let favoriteSong = $('#favorite-song-i');
         statefavoriteSong = !statefavoriteSong;
+        let MId = $('#media-content').data('MId');
         if (statefavoriteSong) {
             favoriteSong.removeClass("bi-heart").addClass("bi-heart-fill");
+            $.ajax({
+                type: "post",
+                url: "MusicPlayer/AddLoveSong",
+                data: { MId: MId },
+                dataType: "",
+                success: function (response) {
+
+                }
+            });
         } else {
             favoriteSong.removeClass("bi-heart-fill").addClass("bi-heart");
+            $.ajax({
+                type: "post",
+                url: "MusicPlayer/RemoveLoveSong",
+                data: { MId: MId },
+                dataType: "",
+                success: function (response) {
+
+                }
+            });
         }
     });
 
     //event click on comment song button to show comment details of song
     $('#comment-song').click(function () {
+        numberOfComments = 0;
         stateCommentSong = !stateCommentSong;
         let commentSong = $('#comment-song-i');
         if (stateCommentSong) {
             $('#model-comment-song').show();
             commentSong.removeClass("bi-chat-dots").addClass("bi-chat-dots-fill");
+            var MId = $('#media-content').data('MId');
+            $('#comment-content').empty();
+            $.ajax({
+                type: "get",
+                url: "MusicPlayer/GetCommentsSong",
+                data: { MId: MId},
+                dataType: "json",
+                success: function (response) {
+                    $(response).each(function (key, value) {
+                        let commentSong = '<div class="comment_of_song">' +
+                                            '<img src = "'+value.photo+'" alt = "user-image" class="avatar-user-comment">' +
+                                            '<div>' +
+                                                '<span class="username-comment">'+value.nickName+'</span>' +
+                                                '<div class="content-user-comment">'+value.content+'</div>' +
+                                            '</div>' +
+                                           '</div>';
+                        $('#comment-content').append(commentSong);
+                        numberOfComments++;
+                    });
+                    $('#number_of_comments').text(numberOfComments + " Bình luận");
+                }
+            });
         } else {
             commentSong.removeClass("bi-chat-dots-fill").addClass("bi-chat-dots");
         }
@@ -364,12 +602,11 @@ $(document).ready(function () {
         }
     });
 
-    //event enter comments
-    $('#submit-comment').click(function () {
-        let commentContent = $('#input-comment').val();
+
+    function AddCommentSong(commentContent) {
         if (commentContent) {
             let appendComment = '<div class="comment_of_song">' +
-                '<img src="Avatar-Default.jpg" alt="user-image" class="avatar-user-comment">' +
+                '<img src="/images/Avatar-Default.jpg" alt="user-image" class="avatar-user-comment">' +
                 '<div>' +
                 '<span class="username-comment">Nguyễn Văn C</span>' +
                 '<div class="content-user-comment">' + commentContent + '</div>' +
@@ -379,7 +616,23 @@ $(document).ready(function () {
             numberOfComments++;
             $('#number_of_comments').text(numberOfComments + " Bình luận");
             $('#input-comment').val('');
+            let MId = $('#media-content').data('MId');
+            $.ajax({
+                type: "post",
+                url: "MusicPlayer/AddCommentSong",
+                data: { MId: MId, Content: commentContent},
+                dataType: "",
+                success: function (response) {
+
+                }
+            });
         }
+    }
+    //event enter comments
+    $('#submit-comment').click(function () {
+        let commentContent = $('#input-comment').val();
+        AddCommentSong(commentContent);
+
     });
 
     //event press key enter in input
@@ -387,19 +640,8 @@ $(document).ready(function () {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if (keycode == '13') {
             let commentContent = $('#input-comment').val();
-            if (commentContent) {
-                let appendComment = '<div class="comment_of_song">' +
-                    '<img src="Avatar-Default.jpg" alt="user-image" class="avatar-user-comment">' +
-                    '<div>' +
-                    '<span class="username-comment">Nguyễn Văn C</span>' +
-                    '<div class="content-user-comment">' + commentContent + '</div>' +
-                    '</div>' +
-                    '</div>';
-                $('#comment-content').append(appendComment);
-                numberOfComments++;
-                $('#number_of_comments').text(numberOfComments + " Bình luận");
-                $('#input-comment').val('');
-            }
+            AddCommentSong(commentContent);
+
         }
     });
     //Playlist

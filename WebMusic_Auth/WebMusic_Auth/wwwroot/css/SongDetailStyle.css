@@ -1,0 +1,31 @@
+﻿.song-detail {
+    display: flex;
+    padding: 0;
+    margin: 140px 10px 10px 100px;
+}
+
+    .song-detail > div > img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid rgb(6, 90, 247);
+    }
+
+    .song-detail > div > button {
+        margin-top: 8px;
+        padding: 0;
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
+
+        .song-detail > div > button > i {
+            font-size: 70px;
+            color: rgb(1, 245, 62);
+        }
+
+    .song-detail > .song-info {
+        margin-left: 40px;
+        text-align: left;
+    }
